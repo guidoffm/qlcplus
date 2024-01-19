@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.12.7</Version>
@@ -79,6 +79,16 @@
    <Address>43</Address>
    <Channels>13</Channels>
    <ForcedHTP>11</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stairville</Manufacturer>
+   <Model>AF-150</Model>
+   <Mode>1ch</Mode>
+   <ID>6</ID>
+   <Name>AF-150</Name>
+   <Universe>0</Universe>
+   <Address>42</Address>
+   <Channels>1</Channels>
   </Fixture>
   <FixtureGroup ID="0">
    <Name>Spots</Name>
@@ -423,16 +433,6 @@
    <FixtureVal ID="2">0,110,1,200,2,120</FixtureVal>
    <FixtureVal ID="3">0,110,1,200,2,120</FixtureVal>
   </Function>
-  <Function ID="68" Type="RGBMatrix" Name="Neue RGB Matrix 68">
-   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Script">Stripes</Algorithm>
-   <MonoColor>4294901760</MonoColor>
-   <ControlMode>RGB</ControlMode>
-   <FixtureGroup>0</FixtureGroup>
-   <Property Name="orientation" Value="Horizontal"/>
-  </Function>
   <Function ID="69" Type="EFX" Name="Moving Head Circle">
    <Fixture>
     <ID>5</ID>
@@ -491,7 +491,7 @@
     <Font>Default</Font>
    </Appearance>
    <Clock Type="Clock" Caption="" ID="26">
-    <WindowState Visible="True" X="65" Y="25" Width="150" Height="50"/>
+    <WindowState Visible="False" X="65" Y="25" Width="150" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -501,7 +501,7 @@
     </Appearance>
    </Clock>
    <AudioTriggers BarsNumber="5" Caption="Audio" ID="1">
-    <WindowState Visible="True" X="65" Y="85" Width="225" Height="215"/>
+    <WindowState Visible="False" X="65" Y="85" Width="225" Height="215"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -527,7 +527,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="430" Y="135" Width="245" Height="165"/>
+    <WindowState Visible="False" X="430" Y="135" Width="245" Height="165"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -536,7 +536,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="Laser Auto 1" ID="2" Icon="">
-     <WindowState Visible="True" X="20" Y="50" Width="100" Height="95"/>
+     <WindowState Visible="False" X="20" Y="50" Width="100" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -549,7 +549,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Laser Auto 2" ID="3" Icon="">
-     <WindowState Visible="True" X="125" Y="50" Width="95" Height="95"/>
+     <WindowState Visible="False" X="125" Y="50" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -570,7 +570,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="65" Y="320" Width="630" Height="165"/>
+    <WindowState Visible="False" X="65" Y="320" Width="630" Height="165"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -579,7 +579,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="Color Changer" ID="27" Icon="">
-     <WindowState Visible="True" X="15" Y="55" Width="95" Height="95"/>
+     <WindowState Visible="False" X="15" Y="55" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -592,7 +592,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Chaser White Infinite" ID="5" Icon="">
-     <WindowState Visible="True" X="415" Y="55" Width="95" Height="95"/>
+     <WindowState Visible="False" X="415" Y="55" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -605,7 +605,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Chaser White One Shot" ID="6" Icon="">
-     <WindowState Visible="True" X="515" Y="55" Width="95" Height="95"/>
+     <WindowState Visible="False" X="515" Y="55" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -618,7 +618,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Gradual Fast All Colors" ID="9" Icon="">
-     <WindowState Visible="True" X="115" Y="55" Width="95" Height="95"/>
+     <WindowState Visible="False" X="115" Y="55" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -631,7 +631,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Gradual Medium Speed RGB" ID="10" Icon="">
-     <WindowState Visible="True" X="215" Y="55" Width="95" Height="95"/>
+     <WindowState Visible="False" X="215" Y="55" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -644,7 +644,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Strobe RGBW All Together" ID="11" Icon="">
-     <WindowState Visible="True" X="315" Y="55" Width="95" Height="95"/>
+     <WindowState Visible="False" X="315" Y="55" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -665,7 +665,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="300" Y="135" Width="120" Height="165"/>
+    <WindowState Visible="False" X="300" Y="135" Width="120" Height="165"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -674,7 +674,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="Moving Head Auto" ID="8" Icon="">
-     <WindowState Visible="True" X="10" Y="50" Width="95" Height="95"/>
+     <WindowState Visible="False" X="10" Y="50" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
