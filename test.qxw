@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.7</Version>
+  <Author>guido</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0">
+    <Output Plugin="ArtNet" UID="192.168.178.94" Line="5"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Lixada</Manufacturer>
+   <Model>L0581EU</Model>
+   <Mode>8</Mode>
+   <ID>0</ID>
+   <Name>RGBW LED Stage PAR Light Strobe Professional 8 Channel Party Disco Show 15W</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Sheds</Manufacturer>
+   <Model>Mini LED Spot Beam 10W Moving Head</Model>
+   <Mode>13</Mode>
+   <ID>1</ID>
+   <Name>Mini LED Spot Beam 10W Moving Head</Name>
+   <Universe>0</Universe>
+   <Address>43</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>Moving Heads</Name>
+   <Size X="1" Y="1"/>
+   <Head X="0" Y="0" Fixture="1">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="1">
+   <Name>Spots</Name>
+   <Size X="1" Y="1"/>
+   <Head X="0" Y="0" Fixture="0">0</Head>
+  </FixtureGroup>
+  <Function ID="0" Type="Scene" Name="Rot">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="1" Type="Scene" Name="Mover Auto">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">11,72</FixtureVal>
+  </Function>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
