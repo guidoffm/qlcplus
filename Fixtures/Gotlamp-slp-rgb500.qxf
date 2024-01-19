@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.7</Version>
+  <Author>guido</Author>
+ </Creator>
+ <Manufacturer>Gotlamp</Manufacturer>
+ <Model>slp-rgb500</Model>
+ <Type>Laser</Type>
+ <Channel Name="Mode Selection">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="63">Closed Mode</Capability>
+  <Capability Min="64" Max="127">Manual Mode</Capability>
+  <Capability Min="128" Max="191">Auto Mode</Capability>
+  <Capability Min="192" Max="255">Sound Mode</Capability>
+ </Channel>
+ <Channel Name="Mode Selection 2">
+  <Group Byte="0">Effect</Group>
+ </Channel>
+ <Channel Name="Angle Control">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Rotation angle selection</Capability>
+  <Capability Min="128" Max="191">Positive rotation speed selection</Capability>
+  <Capability Min="192" Max="255">Anti-rotation speed selection</Capability>
+ </Channel>
+ <Channel Name="Horizontal angle">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Horizontal flip position selection</Capability>
+  <Capability Min="128" Max="255">Horizontal flip speed selection</Capability>
+ </Channel>
+ <Channel Name="Vertical angle">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Vertcal flip position selection</Capability>
+  <Capability Min="128" Max="255">Vertcal flip speed selection</Capability>
+ </Channel>
+ <Channel Name="Horizontal position">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Horizontal position selection</Capability>
+  <Capability Min="128" Max="255">Horizontal movement speed selection</Capability>
+ </Channel>
+ <Channel Name="Vertical position">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Vertical position selection</Capability>
+  <Capability Min="128" Max="255">Vertical movement speed selection</Capability>
+ </Channel>
+ <Channel Name="Size control">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="63">Fixed size</Capability>
+  <Capability Min="64" Max="127">Choose from small to large speed selection</Capability>
+  <Capability Min="128" Max="255">Choose from large to small speed selection</Capability>
+ </Channel>
+ <Channel Name="Color control">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="63">Single color selection</Capability>
+  <Capability Min="64" Max="127">Color nmixing selection</Capability>
+  <Capability Min="128" Max="191">Single color auto</Capability>
+  <Capability Min="192" Max="255">Color mixing auto</Capability>
+ </Channel>
+ <Channel Name="Node control">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Pattern with dots and lines</Capability>
+  <Capability Min="128" Max="255">Pattern with dots, no lines</Capability>
+ </Channel>
+ <Physical>
+  <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="0" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>
