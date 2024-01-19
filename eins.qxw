@@ -60,9 +60,9 @@
    <Modifier Channel="3" Name="Always Full"/>
   </Fixture>
   <Fixture>
-   <Manufacturer>Generic</Manufacturer>
-   <Model>Generic</Model>
-   <Mode>10 Channel</Mode>
+   <Manufacturer>Gotlamp</Manufacturer>
+   <Model>slp-rgb500</Model>
+   <Mode>10ch</Mode>
    <ID>4</ID>
    <Name>Laser</Name>
    <Universe>0</Universe>
@@ -158,11 +158,11 @@
   </Function>
   <Function ID="8" Type="Scene" Name="Laser Auto 1">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="4">0,137,1,79,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,150,1,75,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
   <Function ID="9" Type="Scene" Name="Laser Auto 2">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="4">0,137,1,188,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,151,1,188,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
   <Function ID="10" Type="Scene" Name="Laser Sound 1">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -226,7 +226,7 @@
   </Function>
   <Function ID="25" Type="Scene" Name="Laser Dreieck">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="4">0,64,1,75,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,84,1,75,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
   <Function ID="26" Type="Scene" Name="Laser Herz">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -254,7 +254,7 @@
   </Function>
   <Function ID="32" Type="Scene" Name="Laser drei versetzte vertikale Linien">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="4">0,64,1,110,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,77,1,110,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
   <Function ID="33" Type="Scene" Name="Laser 5 einzelne Linien">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
