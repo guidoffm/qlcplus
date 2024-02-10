@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.12.7</Version>
@@ -18,7 +18,7 @@
   <Fixture>
    <Manufacturer>Lixada</Manufacturer>
    <Model>L0581EU</Model>
-   <Mode>8</Mode>
+   <Mode>8ch</Mode>
    <ID>0</ID>
    <Name>12 RGBW LED Par Light #1</Name>
    <Universe>0</Universe>
@@ -30,7 +30,7 @@
   <Fixture>
    <Manufacturer>Lixada</Manufacturer>
    <Model>L0581EU</Model>
-   <Mode>8</Mode>
+   <Mode>8ch</Mode>
    <ID>1</ID>
    <Name>12 RGBW LED Par Light #2</Name>
    <Universe>0</Universe>
@@ -42,7 +42,7 @@
   <Fixture>
    <Manufacturer>Lixada</Manufacturer>
    <Model>L0581EU</Model>
-   <Mode>8</Mode>
+   <Mode>8ch</Mode>
    <ID>2</ID>
    <Name>12 RGBW LED Par Light #3</Name>
    <Universe>0</Universe>
@@ -54,7 +54,7 @@
   <Fixture>
    <Manufacturer>Lixada</Manufacturer>
    <Model>L0581EU</Model>
-   <Mode>8</Mode>
+   <Mode>8ch</Mode>
    <ID>3</ID>
    <Name>12 RGBW LED Par Light #4</Name>
    <Universe>0</Universe>
