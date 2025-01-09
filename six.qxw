@@ -24,7 +24,6 @@
    <Universe>0</Universe>
    <Address>0</Address>
    <Channels>8</Channels>
-   <ForcedHTP>0,1,2</ForcedHTP>
    <Modifier Channel="3" Name="Always Full"/>
   </Fixture>
   <Fixture>
@@ -36,7 +35,6 @@
    <Universe>0</Universe>
    <Address>8</Address>
    <Channels>8</Channels>
-   <ForcedHTP>0,1,2</ForcedHTP>
    <Modifier Channel="3" Name="Always Full"/>
   </Fixture>
   <Fixture>
@@ -48,7 +46,6 @@
    <Universe>0</Universe>
    <Address>16</Address>
    <Channels>8</Channels>
-   <ForcedHTP>0,1,2</ForcedHTP>
    <Modifier Channel="3" Name="Always Full"/>
   </Fixture>
   <Fixture>
@@ -60,7 +57,6 @@
    <Universe>0</Universe>
    <Address>24</Address>
    <Channels>8</Channels>
-   <ForcedHTP>0,1,2</ForcedHTP>
    <Modifier Channel="3" Name="Always Full"/>
   </Fixture>
   <Fixture>
@@ -82,7 +78,6 @@
    <Universe>0</Universe>
    <Address>43</Address>
    <Channels>13</Channels>
-   <ForcedHTP>11</ForcedHTP>
   </Fixture>
   <Fixture>
    <Manufacturer>Stairville</Manufacturer>
@@ -93,6 +88,7 @@
    <Universe>1</Universe>
    <Address>42</Address>
    <Channels>1</Channels>
+   <ForcedLTP>0</ForcedLTP>
   </Fixture>
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
