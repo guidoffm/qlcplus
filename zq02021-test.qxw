@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.7</Version>
+  <Author>Guido Müller</Author>
+ </Creator>
+ <Engine Autostart="34">
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0">
+    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: B002F9NE)" Line="0">
+     <PluginParameters UniverseChannels="71"/>
+    </Output>
+   </Universe>
+   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>UKing</Manufacturer>
+   <Model>ZQ02021</Model>
+   <Mode>Default</Mode>
+   <ID>0</ID>
+   <Name>ZQ02021</Name>
+   <Universe>0</Universe>
+   <Address>59</Address>
+   <Channels>12</Channels>
+  </Fixture>
+  <Function ID="0" Type="Scene" Name="ZQ02021 - Strobe - No Function">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">6,0</FixtureVal>
+  </Function>
+  <Function ID="1" Type="Scene" Name="ZQ02021 - Strobe - Strobe speed s-&gt;f">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">6,128</FixtureVal>
+  </Function>
+  <Function ID="2" Type="Chaser" Name="Shutter-Makros chaser - ZQ02021">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">0</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">1</Step>
+  </Function>
+  <Function ID="3" Type="Scene" Name="ZQ02021 - Color wheel - White">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">7,7</FixtureVal>
+  </Function>
+  <Function ID="4" Type="Scene" Name="ZQ02021 - Color wheel - Color 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">7,23</FixtureVal>
+  </Function>
+  <Function ID="5" Type="Scene" Name="ZQ02021 - Color wheel - Color 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">7,39</FixtureVal>
+  </Function>
+  <Function ID="6" Type="Scene" Name="ZQ02021 - Color wheel - Color 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">7,55</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="ZQ02021 - Color wheel - Color 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">7,71</FixtureVal>
+  </Function>
+  <Function ID="8" Type="Scene" Name="ZQ02021 - Color wheel - Color 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">7,87</FixtureVal>
+  </Function>
+  <Function ID="9" Type="Scene" Name="ZQ02021 - Color wheel - Color 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">7,103</FixtureVal>
+  </Function>
+  <Function ID="10" Type="Scene" Name="ZQ02021 - Color wheel - Color 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">7,119</FixtureVal>
+  </Function>
+  <Function ID="11" Type="Scene" Name="ZQ02021 - Color wheel - CW color automatic switch s-&gt;f">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">7,159</FixtureVal>
+  </Function>
+  <Function ID="12" Type="Scene" Name="ZQ02021 - Color wheel - CCW color automatic switch s-&gt;f">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">7,223</FixtureVal>
+  </Function>
+  <Function ID="13" Type="Chaser" Name="Farb-Makros chaser - ZQ02021">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">3</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">4</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">6</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">7</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">8</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">9</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">10</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">11</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">12</Step>
+  </Function>
+  <Function ID="14" Type="Scene" Name="ZQ02021 - Gobowheel - No Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,3</FixtureVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="ZQ02021 - Gobowheel - Gobo 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,11</FixtureVal>
+  </Function>
+  <Function ID="16" Type="Scene" Name="ZQ02021 - Gobowheel - Gobo 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,19</FixtureVal>
+  </Function>
+  <Function ID="17" Type="Scene" Name="ZQ02021 - Gobowheel - Gobo 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,27</FixtureVal>
+  </Function>
+  <Function ID="18" Type="Scene" Name="ZQ02021 - Gobowheel - Gobo 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,35</FixtureVal>
+  </Function>
+  <Function ID="19" Type="Scene" Name="ZQ02021 - Gobowheel - Gobo 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,43</FixtureVal>
+  </Function>
+  <Function ID="20" Type="Scene" Name="ZQ02021 - Gobowheel - Gobo 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,51</FixtureVal>
+  </Function>
+  <Function ID="21" Type="Scene" Name="ZQ02021 - Gobowheel - Gobo 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,59</FixtureVal>
+  </Function>
+  <Function ID="22" Type="Scene" Name="ZQ02021 - Gobowheel - Gobo 7 jitter s-&gt;f">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,68</FixtureVal>
+  </Function>
+  <Function ID="23" Type="Scene" Name="ZQ02021 - Gobowheel - Gobo 6 jitter s-&gt;f">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,78</FixtureVal>
+  </Function>
+  <Function ID="24" Type="Scene" Name="ZQ02021 - Gobowheel - Gobo 5 jitter s-&gt;f">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,87</FixtureVal>
+  </Function>
+  <Function ID="25" Type="Scene" Name="ZQ02021 - Gobowheel - Gobo 4 jitter s-&gt;f">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,96</FixtureVal>
+  </Function>
+  <Function ID="26" Type="Scene" Name="ZQ02021 - Gobowheel - Gobo 3 jitter s-&gt;f">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,105</FixtureVal>
+  </Function>
+  <Function ID="27" Type="Scene" Name="ZQ02021 - Gobowheel - Gobo 2 jitter s-&gt;f">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,114</FixtureVal>
+  </Function>
+  <Function ID="28" Type="Scene" Name="ZQ02021 - Gobowheel - Gobo 1 jitter s-&gt;f">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,123</FixtureVal>
+  </Function>
+  <Function ID="29" Type="Scene" Name="ZQ02021 - Gobowheel - CW Gobo switching f-&gt;s">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,159</FixtureVal>
+  </Function>
+  <Function ID="30" Type="Scene" Name="ZQ02021 - Gobowheel - CCW Gobo switching s-&gt;f">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,223</FixtureVal>
+  </Function>
+  <Function ID="31" Type="Chaser" Name="Gobo-Makros chaser - ZQ02021">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">14</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">15</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">16</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">17</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">18</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">19</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">20</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">21</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">22</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">23</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">24</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">25</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">26</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">27</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">28</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">29</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">30</Step>
+  </Function>
+  <Function ID="32" Type="Scene" Name="Auto">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">10,110</FixtureVal>
+  </Function>
+  <Function ID="33" Type="Scene" Name="Sound">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">10,242</FixtureVal>
+  </Function>
+  <Function ID="34" Type="Scene" Name="Alles aus">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">10,0</FixtureVal>
+  </Function>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Frame Caption="Shutter-Makros - ZQ02021" ID="0">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="10" Y="10" Width="530" Height="270"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <SoloFrame Caption="Voreinstellungen Einzelrahmen" ID="1">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="10" Y="40" Width="130" Height="100"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="ZQ02021 - Strobe - No Function" ID="2" Icon="">
+      <WindowState Visible="True" X="10" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="0"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Strobe - Strobe speed s-&gt;f" ID="3" Icon="">
+      <WindowState Visible="True" X="70" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="1"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </SoloFrame>
+    <CueList Caption="Shutter-Makros chaser" ID="4">
+     <WindowState Visible="True" X="150" Y="40" Width="300" Height="220"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>2</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next/>
+     <Previous/>
+     <Playback/>
+     <Stop/>
+    </CueList>
+    <Slider Caption="Click &amp; Go Makro" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="460" Y="40" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="0">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Frame Caption="Farb-Makros - ZQ02021" ID="6">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="550" Y="10" Width="650" Height="270"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <SoloFrame Caption="Voreinstellungen Einzelrahmen" ID="7">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="10" Y="40" Width="250" Height="220"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="ZQ02021 - Color wheel - White" ID="8" Icon="">
+      <WindowState Visible="True" X="10" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="3"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Color wheel - Color 1" ID="9" Icon="">
+      <WindowState Visible="True" X="70" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="4"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Color wheel - Color 2" ID="10" Icon="">
+      <WindowState Visible="True" X="130" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="5"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Color wheel - Color 3" ID="11" Icon="">
+      <WindowState Visible="True" X="190" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="6"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Color wheel - Color 4" ID="12" Icon="">
+      <WindowState Visible="True" X="10" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="7"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Color wheel - Color 5" ID="13" Icon="">
+      <WindowState Visible="True" X="70" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="8"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Color wheel - Color 6" ID="14" Icon="">
+      <WindowState Visible="True" X="130" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="9"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Color wheel - Color 7" ID="15" Icon="">
+      <WindowState Visible="True" X="190" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="10"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Color wheel - CW color automatic switch s-&gt;f" ID="16" Icon="">
+      <WindowState Visible="True" X="10" Y="160" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="11"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Color wheel - CCW color automatic switch s-&gt;f" ID="17" Icon="">
+      <WindowState Visible="True" X="70" Y="160" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="12"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </SoloFrame>
+    <CueList Caption="Farb-Makros chaser" ID="18">
+     <WindowState Visible="True" X="270" Y="40" Width="300" Height="220"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>13</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next/>
+     <Previous/>
+     <Playback/>
+     <Stop/>
+    </CueList>
+    <Slider Caption="Click &amp; Go Makro" ID="19" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="580" Y="40" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="0">7</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Frame Caption="Gobo-Makros - ZQ02021" ID="20">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="1210" Y="10" Width="650" Height="390"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <SoloFrame Caption="Voreinstellungen Einzelrahmen" ID="21">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="10" Y="40" Width="250" Height="340"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="ZQ02021 - Gobowheel - No Gobo" ID="22" Icon="">
+      <WindowState Visible="True" X="10" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="14"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Gobowheel - Gobo 1" ID="23" Icon="">
+      <WindowState Visible="True" X="70" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="15"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Gobowheel - Gobo 2" ID="24" Icon="">
+      <WindowState Visible="True" X="130" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="16"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Gobowheel - Gobo 3" ID="25" Icon="">
+      <WindowState Visible="True" X="190" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="17"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Gobowheel - Gobo 4" ID="26" Icon="">
+      <WindowState Visible="True" X="10" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="18"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Gobowheel - Gobo 5" ID="27" Icon="">
+      <WindowState Visible="True" X="70" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="19"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Gobowheel - Gobo 6" ID="28" Icon="">
+      <WindowState Visible="True" X="130" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="20"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Gobowheel - Gobo 7" ID="29" Icon="">
+      <WindowState Visible="True" X="190" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="21"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Gobowheel - Gobo 7 jitter s-&gt;f" ID="30" Icon="">
+      <WindowState Visible="True" X="10" Y="160" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="22"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Gobowheel - Gobo 6 jitter s-&gt;f" ID="31" Icon="">
+      <WindowState Visible="True" X="70" Y="160" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="23"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Gobowheel - Gobo 5 jitter s-&gt;f" ID="32" Icon="">
+      <WindowState Visible="True" X="130" Y="160" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="24"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Gobowheel - Gobo 4 jitter s-&gt;f" ID="33" Icon="">
+      <WindowState Visible="True" X="190" Y="160" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="25"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Gobowheel - Gobo 3 jitter s-&gt;f" ID="34" Icon="">
+      <WindowState Visible="True" X="10" Y="220" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="26"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Gobowheel - Gobo 2 jitter s-&gt;f" ID="35" Icon="">
+      <WindowState Visible="True" X="70" Y="220" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="27"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Gobowheel - Gobo 1 jitter s-&gt;f" ID="36" Icon="">
+      <WindowState Visible="True" X="130" Y="220" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="28"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Gobowheel - CW Gobo switching f-&gt;s" ID="37" Icon="">
+      <WindowState Visible="True" X="190" Y="220" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="29"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ZQ02021 - Gobowheel - CCW Gobo switching s-&gt;f" ID="38" Icon="">
+      <WindowState Visible="True" X="10" Y="280" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="30"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </SoloFrame>
+    <CueList Caption="Gobo-Makros chaser" ID="39">
+     <WindowState Visible="True" X="270" Y="40" Width="300" Height="220"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>31</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next/>
+     <Previous/>
+     <Playback/>
+     <Stop/>
+    </CueList>
+    <Slider Caption="Click &amp; Go Makro" ID="40" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="580" Y="40" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="0">8</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <SoloFrame Caption="" ID="41">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="10" Y="285" Width="200" Height="200"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="Auto" ID="42" Icon="">
+     <WindowState Visible="True" X="10" Y="50" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="32"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Sound" ID="43" Icon="">
+     <WindowState Visible="True" X="65" Y="50" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="33"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>

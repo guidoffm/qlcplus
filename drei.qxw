@@ -6,10 +6,10 @@
   <Version>4.12.7</Version>
   <Author>Guido Müller</Author>
  </Creator>
- <Engine>
+ <Engine Autostart="76">
   <InputOutputMap>
    <Universe Name="Universe 1" ID="0">
-    <Output Plugin="DMX USB" UID="None" Line="0"/>
+    <Output Plugin="ArtNet" UID="192.168.178.126" Line="1"/>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
    <Universe Name="Universe 3" ID="2"/>
@@ -78,7 +78,7 @@
    <Model>Mini LED Spot Beam 10W Moving Head</Model>
    <Mode>13</Mode>
    <ID>5</ID>
-   <Name>Mini LED Spot Beam 10W Moving Head</Name>
+   <Name>Mini Moving Head</Name>
    <Universe>0</Universe>
    <Address>43</Address>
    <Channels>13</Channels>
@@ -90,7 +90,7 @@
    <Mode>1ch</Mode>
    <ID>6</ID>
    <Name>AF-150</Name>
-   <Universe>0</Universe>
+   <Universe>1</Universe>
    <Address>42</Address>
    <Channels>1</Channels>
   </Fixture>
@@ -109,11 +109,10 @@
    <Model>ZQ02021</Model>
    <Mode>Default</Mode>
    <ID>8</ID>
-   <Name>Moving Head</Name>
-   <Universe>0</Universe>
+   <Name>Lg Moving Head</Name>
+   <Universe>1</Universe>
    <Address>59</Address>
    <Channels>12</Channels>
-   <ForcedHTP>10</ForcedHTP>
   </Fixture>
   <FixtureGroup ID="0">
    <Name>Spots</Name>
@@ -130,23 +129,18 @@
   <ChannelsGroup ID="4" Name="Green" Value="0">0,5,1,5,2,5,3,5</ChannelsGroup>
   <ChannelsGroup ID="5" Name="Blue" Value="0">0,6,1,6,2,6,3,6</ChannelsGroup>
   <ChannelsGroup ID="6" Name="White" Value="0">0,7,1,7,2,7,3,7</ChannelsGroup>
-  <Function ID="0" Type="Chaser" Name="Neuer Chaser 0">
+  <Function ID="0" Type="Scene" Name="Sm Moving Head Sound Activated">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <Direction>Forward</Direction>
-   <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">6</Step>
-   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">1</Step>
-   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+   <FixtureVal ID="5">11,253</FixtureVal>
   </Function>
-  <Function ID="1" Type="Scene" Name="Spots Green">
+  <Function ID="1" Type="Scene" Name="Spots Green" Path="Spots">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,255,4,0,5,255,6,0,7,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,255,4,0,5,255,6,0,7,0</FixtureVal>
    <FixtureVal ID="2">0,0,1,0,2,0,3,255,4,0,5,255,6,0,7,0</FixtureVal>
    <FixtureVal ID="3">0,0,1,0,2,0,3,255,4,0,5,255,6,0,7,0</FixtureVal>
   </Function>
-  <Function ID="2" Type="Chaser" Name="Farbwechsel">
+  <Function ID="2" Type="Chaser" Name="Farbwechsel" Path="Spots">
    <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -156,288 +150,270 @@
    <Step Number="2" FadeIn="0" Hold="200" FadeOut="0">6</Step>
    <Step Number="3" FadeIn="0" Hold="200" FadeOut="0">7</Step>
   </Function>
-  <Function ID="3" Type="Scene" Name="Laser Quadrat">
+  <Function ID="3" Type="Scene" Name="Laser Quadrat" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,5,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="4" Type="Scene" Name="Fog 01%">
+  <Function ID="4" Type="Scene" Name="Fog 01%" Path="Fog">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="6">0,1</FixtureVal>
   </Function>
-  <Function ID="5" Type="Scene" Name="Spots Red">
+  <Function ID="5" Type="Scene" Name="Spots Red" Path="Spots">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,255,4,255,5,0,6,0,7,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,255,4,255,5,0,6,0,7,0</FixtureVal>
    <FixtureVal ID="2">0,0,1,0,2,0,3,255,4,255,5,0,6,0,7,0</FixtureVal>
    <FixtureVal ID="3">0,0,1,0,2,0,3,255,4,255,5,0,6,0,7,0</FixtureVal>
   </Function>
-  <Function ID="6" Type="Scene" Name="Spots Blue">
+  <Function ID="6" Type="Scene" Name="Spots Blue" Path="Spots">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,255,4,0,5,0,6,255,7,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,255,4,0,5,0,6,255,7,0</FixtureVal>
    <FixtureVal ID="2">0,0,1,0,2,0,3,255,4,0,5,0,6,255,7,0</FixtureVal>
    <FixtureVal ID="3">0,0,1,0,2,0,3,255,4,0,5,0,6,255,7,0</FixtureVal>
   </Function>
-  <Function ID="7" Type="Scene" Name="Spots White">
+  <Function ID="7" Type="Scene" Name="Spots White" Path="Spots">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,255</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,255</FixtureVal>
    <FixtureVal ID="2">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,255</FixtureVal>
    <FixtureVal ID="3">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,255</FixtureVal>
   </Function>
-  <Function ID="8" Type="Scene" Name="Laser Auto 1">
+  <Function ID="8" Type="Scene" Name="Laser Auto 1" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,150,1,75,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="9" Type="Scene" Name="Laser Auto 2">
+  <Function ID="9" Type="Scene" Name="Laser Auto 2" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,151,1,188,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="10" Type="Scene" Name="Laser Sound 1">
+  <Function ID="10" Type="Scene" Name="Laser Sound 1" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,209,1,84,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="11" Type="Scene" Name="Laser Sound 2">
+  <Function ID="11" Type="Scene" Name="Laser Sound 2" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,209,1,214,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="12" Type="Scene" Name="Laser Circle">
+  <Function ID="12" Type="Scene" Name="Laser Circle" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,10,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="13" Type="Scene" Name="Laser Linie horizontal rot">
+  <Function ID="13" Type="Scene" Name="Laser Linie horizontal rot" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,15,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="14" Type="Scene" Name="Laser Linie vertikal rot">
+  <Function ID="14" Type="Scene" Name="Laser Linie vertikal rot" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,20,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="15" Type="Scene" Name="Laser Note">
+  <Function ID="15" Type="Scene" Name="Laser Note" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,25,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="16" Type="Scene" Name="Laser Half Circle">
+  <Function ID="16" Type="Scene" Name="Laser Half Circle" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,30,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="17" Type="Scene" Name="Laser Wellenlinie">
+  <Function ID="17" Type="Scene" Name="Laser Wellenlinie" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,35,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="18" Type="Scene" Name="Laser Schnecke">
+  <Function ID="18" Type="Scene" Name="Laser Schnecke" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,40,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="19" Type="Scene" Name="Laser verdrehtes Quadrat">
+  <Function ID="19" Type="Scene" Name="Laser verdrehtes Quadrat" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,45,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="20" Type="Scene" Name="Laser Number 1">
+  <Function ID="20" Type="Scene" Name="Laser Number 1" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,50,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="21" Type="Scene" Name="Laser Number 2">
+  <Function ID="21" Type="Scene" Name="Laser Number 2" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,55,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="22" Type="Scene" Name="Laser Number 3">
+  <Function ID="22" Type="Scene" Name="Laser Number 3" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,60,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="23" Type="Scene" Name="Laser Rectangle">
+  <Function ID="23" Type="Scene" Name="Laser Rectangle" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,65,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="24" Type="Scene" Name="Laser Star">
+  <Function ID="24" Type="Scene" Name="Laser Star" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,70,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="25" Type="Scene" Name="Laser Triangle">
+  <Function ID="25" Type="Scene" Name="Laser Triangle" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,84,1,75,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="26" Type="Scene" Name="Laser Heart">
+  <Function ID="26" Type="Scene" Name="Laser Heart" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,80,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="27" Type="Scene" Name="Laser Winkel">
+  <Function ID="27" Type="Scene" Name="Laser Winkel" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,85,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="28" Type="Scene" Name="Laser zwei Kreise">
+  <Function ID="28" Type="Scene" Name="Laser zwei Kreise" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,90,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="29" Type="Scene" Name="Laser zwei Linien">
+  <Function ID="29" Type="Scene" Name="Laser zwei Linien" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,95,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="30" Type="Scene" Name="Laser offenes Viereck">
+  <Function ID="30" Type="Scene" Name="Laser offenes Viereck" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,100,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="31" Type="Scene" Name="Laser Pfeil">
+  <Function ID="31" Type="Scene" Name="Laser Pfeil" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,105,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="32" Type="Scene" Name="Laser drei versetzte vertikale Linien">
+  <Function ID="32" Type="Scene" Name="Laser drei versetzte vertikale Linien" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,77,1,110,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="33" Type="Scene" Name="Laser 5 einzelne Linien">
+  <Function ID="33" Type="Scene" Name="Laser 5 einzelne Linien" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,115,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="34" Type="Scene" Name="Laser Ypsilon">
+  <Function ID="34" Type="Scene" Name="Laser Ypsilon" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,120,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="35" Type="Scene" Name="Laser Fünfeck">
+  <Function ID="35" Type="Scene" Name="Laser Fünfeck" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,125,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="36" Type="Scene" Name="Laser Triangle With Circle">
+  <Function ID="36" Type="Scene" Name="Laser Triangle With Circle" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,130,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="37" Type="Scene" Name="Laser Donut">
+  <Function ID="37" Type="Scene" Name="Laser Donut" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,135,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="38" Type="Scene" Name="Laser Circle">
+  <Function ID="38" Type="Scene" Name="Laser Circle" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,140,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="39" Type="Scene" Name="Laser Flash Symbol">
+  <Function ID="39" Type="Scene" Name="Laser Flash Symbol" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,145,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="40" Type="Scene" Name="Laser Zickzack">
+  <Function ID="40" Type="Scene" Name="Laser Zickzack" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,150,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="41" Type="Scene" Name="Laser zwei Dreiecke ineinander">
+  <Function ID="41" Type="Scene" Name="Laser zwei Dreiecke ineinander" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,155,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="42" Type="Scene" Name="Laser Cross">
+  <Function ID="42" Type="Scene" Name="Laser Cross" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,160,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="43" Type="Scene" Name="Laser Arc">
+  <Function ID="43" Type="Scene" Name="Laser Arc" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,165,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="44" Type="Scene" Name="Laser Linie schräg rot grün">
+  <Function ID="44" Type="Scene" Name="Laser Linie schräg rot grün" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,170,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="45" Type="Scene" Name="Laser Small Circle">
+  <Function ID="45" Type="Scene" Name="Laser Small Circle" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,175,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="46" Type="Scene" Name="Laser Small Square">
+  <Function ID="46" Type="Scene" Name="Laser Small Square" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,180,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="47" Type="Scene" Name="Laser Windmill">
+  <Function ID="47" Type="Scene" Name="Laser Windmill" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,185,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="48" Type="Scene" Name="Laser zwei horizontale Linien">
+  <Function ID="48" Type="Scene" Name="Laser zwei horizontale Linien" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,190,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="49" Type="Scene" Name="Laser offener gestrichelter Kreis">
+  <Function ID="49" Type="Scene" Name="Laser offener gestrichelter Kreis" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,195,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="50" Type="Scene" Name="Laser X-Mas Tree">
+  <Function ID="50" Type="Scene" Name="Laser X-Mas Tree" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,200,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="51" Type="Scene" Name="Laser Propeller dreiflüglig">
+  <Function ID="51" Type="Scene" Name="Laser Propeller dreiflüglig" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,205,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="52" Type="Scene" Name="Laser drei unterbrochene Kreissegmente">
+  <Function ID="52" Type="Scene" Name="Laser drei unterbrochene Kreissegmente" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,210,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="53" Type="Scene" Name="Laser 215">
+  <Function ID="53" Type="Scene" Name="Laser 215" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,215,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="54" Type="Scene" Name="Laser Glas">
+  <Function ID="54" Type="Scene" Name="Laser Glas" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,220,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="55" Type="Scene" Name="Laser 4 Dreiecke auseinander zeigend">
+  <Function ID="55" Type="Scene" Name="Laser 4 Dreiecke auseinander zeigend" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,225,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="56" Type="Scene" Name="Laser Four Dots">
+  <Function ID="56" Type="Scene" Name="Laser Four Dots" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,230,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="57" Type="Scene" Name="Laser Square Wave">
+  <Function ID="57" Type="Scene" Name="Laser Square Wave" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,235,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="58" Type="Scene" Name="Laser Dolphin">
+  <Function ID="58" Type="Scene" Name="Laser Dolphin" Path="Laser">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,64,1,240,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="59" Type="Chaser" Name="Chaser White Infinite">
+  <Function ID="59" Type="Chaser" Name="Chaser White Infinite" Path="Spots">
    <Speed FadeIn="0" FadeOut="0" Duration="150"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">60</Step>
-   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">61</Step>
-   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">62</Step>
-   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">63</Step>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">61</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">62</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">63</Step>
   </Function>
-  <Function ID="60" Type="Scene" Name="Spot 1 White">
+  <Function ID="61" Type="Scene" Name="Spot 2 white" Path="Spots">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,255</FixtureVal>
-   <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
-   <FixtureVal ID="2">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
-   <FixtureVal ID="3">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
+   <FixtureVal ID="1">7,255</FixtureVal>
   </Function>
-  <Function ID="61" Type="Scene" Name="Spot 2 White">
+  <Function ID="62" Type="Scene" Name="Spot 3 white" Path="Spots">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
-   <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,255</FixtureVal>
-   <FixtureVal ID="2">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
-   <FixtureVal ID="3">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
+   <FixtureVal ID="2">7,255</FixtureVal>
   </Function>
-  <Function ID="62" Type="Scene" Name="Spot 3 White">
+  <Function ID="63" Type="Scene" Name="Spot 4 white" Path="Spots">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
-   <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
-   <FixtureVal ID="2">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,255</FixtureVal>
-   <FixtureVal ID="3">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
+   <FixtureVal ID="3">7,255</FixtureVal>
   </Function>
-  <Function ID="63" Type="Scene" Name="Spot 4 White">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
-   <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
-   <FixtureVal ID="2">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
-   <FixtureVal ID="3">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,255</FixtureVal>
-  </Function>
-  <Function ID="64" Type="Chaser" Name="Chaser White One Shot">
+  <Function ID="64" Type="Chaser" Name="Chaser White One Shot" Path="Spots">
    <Speed FadeIn="0" FadeOut="0" Duration="100"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">60</Step>
-   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">61</Step>
-   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">62</Step>
-   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">63</Step>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">61</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">62</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">63</Step>
   </Function>
-  <Function ID="65" Type="Scene" Name="Spots Gradual Fast All Colors">
+  <Function ID="65" Type="Scene" Name="Spots Gradual Fast All Colors" Path="Spots">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <ChannelGroupsVal>0,0,2,255,1,112</ChannelGroupsVal>
    <FixtureVal ID="0">0,112,1,0,2,255</FixtureVal>
@@ -445,24 +421,37 @@
    <FixtureVal ID="2">0,112,1,0,2,255</FixtureVal>
    <FixtureVal ID="3">0,112,1,0,2,255</FixtureVal>
   </Function>
-  <Function ID="66" Type="Chaser" Name="Neuer Chaser 66">
-   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
-   <Direction>Forward</Direction>
-   <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="210" FadeOut="0">5</Step>
-   <Step Number="1" FadeIn="0" Hold="200" FadeOut="0">6</Step>
-   <Step Number="2" FadeIn="0" Hold="200" FadeOut="0">1</Step>
-  </Function>
-  <Function ID="67" Type="Scene" Name="Spots Gradual Medium Speed RGB">
+  <Function ID="66" Type="Script" Name="Neues Skript 66">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <ChannelGroupsVal>0,200,1,110,2,120</ChannelGroupsVal>
-   <FixtureVal ID="0">0,110,1,200,2,120</FixtureVal>
-   <FixtureVal ID="1">0,110,1,200,2,120</FixtureVal>
-   <FixtureVal ID="2">0,110,1,200,2,120</FixtureVal>
-   <FixtureVal ID="3">0,110,1,200,2,120</FixtureVal>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Command>startfunction%3A97%20%2F%2F%20RGB%20gradual%20spot%201</Command>
+   <Command>startfunction%3A98%20%2F%2F%20RGB%20gradual%20spot%202</Command>
+   <Command>startfunction%3A99%20%2F%2F%20RGB%20gradual%20spot%203</Command>
+   <Command>startfunction%3A100%20%2F%2F%20RGB%20gradual%20spot%204</Command>
+   <Command>wait%3Arandom%2802s.00%2C05s.00%29</Command>
+   <Command>stopfunction%3A97%20%2F%2F%20RGB%20gradual%20spot%201</Command>
+   <Command>startfunction%3A97%20%2F%2F%20RGB%20gradual%20spot%201</Command>
+   <Command>wait%3Arandom%2802s.00%2C05s.00%29</Command>
+   <Command>stopfunction%3A98%20%2F%2F%20RGB%20gradual%20spot%202</Command>
+   <Command>startfunction%3A98%20%2F%2F%20RGB%20gradual%20spot%202</Command>
+   <Command>wait%3Arandom%2802s.00%2C05s.00%29</Command>
+   <Command>stopfunction%3A99%20%2F%2F%20RGB%20gradual%20spot%203</Command>
+   <Command>startfunction%3A99%20%2F%2F%20RGB%20gradual%20spot%203</Command>
+   <Command>wait%3Arandom%2802s.00%2C05s.00%29</Command>
+   <Command>stopfunction%3A100%20%2F%2F%20RGB%20gradual%20spot%204</Command>
+   <Command>startfunction%3A100%20%2F%2F%20RGB%20gradual%20spot%204</Command>
+   <Command>wait%3A5m01s</Command>
   </Function>
-  <Function ID="68" Type="Scene" Name="Fog 03%">
+  <Function ID="67" Type="Scene" Name="Spots Gradual Medium Speed RGB" Path="Spots">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,200,1,79,2,93</ChannelGroupsVal>
+   <FixtureVal ID="0">0,79,1,200,2,93</FixtureVal>
+   <FixtureVal ID="1">0,79,1,200,2,93</FixtureVal>
+   <FixtureVal ID="2">0,79,1,200,2,93</FixtureVal>
+   <FixtureVal ID="3">0,79,1,200,2,93</FixtureVal>
+  </Function>
+  <Function ID="68" Type="Scene" Name="Fog 03%" Path="Fog">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="6">0,8</FixtureVal>
   </Function>
@@ -495,7 +484,7 @@
     <Phase>0</Phase>
    </Axis>
   </Function>
-  <Function ID="70" Type="Scene" Name="Strobe RGBW All Together">
+  <Function ID="70" Type="Scene" Name="Strobe RGBW All Together" Path="Spots">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <ChannelGroupsVal>0,255,1,201,2,178</ChannelGroupsVal>
    <FixtureVal ID="0">0,201,1,255,2,178</FixtureVal>
@@ -503,28 +492,30 @@
    <FixtureVal ID="2">0,201,1,255,2,178</FixtureVal>
    <FixtureVal ID="3">0,201,1,255,2,178</FixtureVal>
   </Function>
-  <Function ID="71" Type="Scene" Name="Fog 06%">
+  <Function ID="71" Type="Scene" Name="Fog 06%" Path="Fog">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="6">0,16</FixtureVal>
   </Function>
-  <Function ID="72" Type="Scene" Name="Fog 12%">
+  <Function ID="72" Type="Scene" Name="Fog 12%" Path="Fog">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="6">0,32</FixtureVal>
   </Function>
-  <Function ID="73" Type="Scene" Name="Fog 25%">
+  <Function ID="73" Type="Scene" Name="Fog 25%" Path="Fog">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="6">0,64</FixtureVal>
   </Function>
-  <Function ID="74" Type="Scene" Name="Fog 50%">
+  <Function ID="74" Type="Scene" Name="Fog 50%" Path="Fog">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="6">0,127</FixtureVal>
   </Function>
-  <Function ID="75" Type="Scene" Name="Fog 100%">
+  <Function ID="75" Type="Scene" Name="Fog 100%" Path="Fog">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="6">0,255</FixtureVal>
   </Function>
   <Function ID="76" Type="Scene" Name=" Empty">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">11,0</FixtureVal>
+   <FixtureVal ID="8">10,15</FixtureVal>
   </Function>
   <Function ID="77" Type="Chaser" Name="Fog 100% 10s">
    <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
@@ -542,13 +533,120 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="8">10,50</FixtureVal>
   </Function>
+  <Function ID="80" Type="Chaser" Name="Slow gradual change with white" Path="Spots">
+   <Speed FadeIn="2000" FadeOut="2000" Duration="7000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">6</Step>
+   <Step Number="1" FadeIn="883" Hold="1202" FadeOut="603">1</Step>
+   <Step Number="2" FadeIn="3000" Hold="3000" FadeOut="3000">7</Step>
+   <Step Number="3" FadeIn="883" Hold="1202" FadeOut="603">5</Step>
+  </Function>
+  <Function ID="81" Type="Chaser" Name="Slow gradual change w/o white" Path="Spots">
+   <Speed FadeIn="2000" FadeOut="2000" Duration="8065"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">6</Step>
+   <Step Number="1" FadeIn="883" Hold="1202" FadeOut="603">1</Step>
+   <Step Number="2" FadeIn="883" Hold="1202" FadeOut="603">5</Step>
+  </Function>
+  <Function ID="82" Type="Scene" Name="Spot 1 green" Path="Spots">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,255</FixtureVal>
+  </Function>
   <Function ID="83" Type="Scene" Name="Lg Moving Head Sound Activated">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="8">10,201</FixtureVal>
   </Function>
-  <Function ID="84" Type="Scene" Name="Mover Auto">
+  <Function ID="84" Type="Scene" Name="Sm Moving Head Auto Run">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="5">11,47</FixtureVal>
+  </Function>
+  <Function ID="85" Type="Scene" Name="Spot 1 white" Path="Spots">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">7,255</FixtureVal>
+  </Function>
+  <Function ID="86" Type="Scene" Name="Spot 1 red" Path="Spots">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">4,255</FixtureVal>
+  </Function>
+  <Function ID="87" Type="Scene" Name="Spot 1 blue" Path="Spots">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">6,255</FixtureVal>
+  </Function>
+  <Function ID="88" Type="Scene" Name="Spot 2 blue" Path="Spots">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">6,255</FixtureVal>
+  </Function>
+  <Function ID="89" Type="Scene" Name="Spot 2 green" Path="Spots">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,255</FixtureVal>
+  </Function>
+  <Function ID="90" Type="Scene" Name="Spot 2 red" Path="Spots">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,255</FixtureVal>
+  </Function>
+  <Function ID="91" Type="Scene" Name="Spot 3 blue" Path="Spots">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">6,255</FixtureVal>
+  </Function>
+  <Function ID="92" Type="Scene" Name="Spot 3 green" Path="Spots">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">5,255</FixtureVal>
+  </Function>
+  <Function ID="93" Type="Scene" Name="Spot 3 red" Path="Spots">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,255</FixtureVal>
+  </Function>
+  <Function ID="94" Type="Scene" Name="Spot 4 blue" Path="Spots">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">6,255</FixtureVal>
+  </Function>
+  <Function ID="95" Type="Scene" Name="Spot 4 green" Path="Spots">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">5,255</FixtureVal>
+  </Function>
+  <Function ID="96" Type="Scene" Name="Spot 4 red" Path="Spots">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">4,255</FixtureVal>
+  </Function>
+  <Function ID="97" Type="Chaser" Name="RGB gradual spot 1" Path="Spots">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="5000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">87</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">82</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">86</Step>
+  </Function>
+  <Function ID="98" Type="Chaser" Name="RGB gradual spot 2" Path="Spots">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="5000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="2000" Hold="4000" FadeOut="2000">88</Step>
+   <Step Number="1" FadeIn="2000" Hold="4000" FadeOut="2000">89</Step>
+   <Step Number="2" FadeIn="2000" Hold="4000" FadeOut="2000">90</Step>
+  </Function>
+  <Function ID="99" Type="Chaser" Name="RGB gradual spot 3" Path="Spots">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="5000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="2000" Hold="4000" FadeOut="2000">91</Step>
+   <Step Number="1" FadeIn="2000" Hold="4000" FadeOut="2000">92</Step>
+   <Step Number="2" FadeIn="2000" Hold="4000" FadeOut="2000">93</Step>
+  </Function>
+  <Function ID="100" Type="Chaser" Name="RGB gradual spot 4" Path="Spots">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="5000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="2000" Hold="4000" FadeOut="2000">94</Step>
+   <Step Number="1" FadeIn="2000" Hold="4000" FadeOut="2000">95</Step>
+   <Step Number="2" FadeIn="2000" Hold="4000" FadeOut="2000">96</Step>
   </Function>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
@@ -601,7 +699,7 @@
     <Mixing>False</Mixing>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Button Caption="Laser Auto 1" ID="2" Icon="">
+    <Button Caption="Auto 1" ID="2" Icon="">
      <WindowState Visible="False" X="20" Y="50" Width="100" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -614,7 +712,7 @@
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Laser Auto 2" ID="3" Icon="">
+    <Button Caption="Auto 2" ID="3" Icon="">
      <WindowState Visible="False" X="125" Y="50" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -636,7 +734,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="5" Y="350" Width="630" Height="165"/>
+    <WindowState Visible="False" X="10" Y="355" Width="710" Height="160"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -705,7 +803,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="67"/>
+     <Function ID="81"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
@@ -722,6 +820,19 @@
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
+    <Button Caption="Slow Multi Color" ID="28" Icon="">
+     <WindowState Visible="False" X="605" Y="55" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="66"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
    </SoloFrame>
    <SoloFrame Caption="Mini Moving Head" ID="7">
     <Appearance>
@@ -731,7 +842,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="245" Y="520" Width="195" Height="160"/>
+    <WindowState Visible="False" X="245" Y="520" Width="215" Height="160"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -749,6 +860,19 @@
       <Font>Default</Font>
      </Appearance>
      <Function ID="84"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Sound" ID="24" Icon="">
+     <WindowState Visible="False" X="110" Y="50" Width="95" Height="95"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="0"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
