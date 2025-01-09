@@ -10,7 +10,7 @@
  <Model>L0581EU</Model>
  <Type>Color Changer</Type>
  <Channel Name="Working Mode">
-  <Group Byte="0">Maintenance</Group>
+  <Group Byte="0">Effect</Group>
   <Capability Min="0" Max="10">OFF</Capability>
   <Capability Min="11" Max="50">Static Color</Capability>
   <Capability Min="51" Max="100">Jump</Capability>
