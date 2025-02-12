@@ -6,7 +6,7 @@
   <Version>4.12.7</Version>
   <Author>guido</Author>
  </Creator>
- <Manufacturer>Sheds</Manufacturer>
+ <Manufacturer>Shehds</Manufacturer>
  <Model>Mini LED Spot Beam 10W Moving Head</Model>
  <Type>Moving Head</Type>
  <Channel Name="Pan" Preset="PositionPan"/>
