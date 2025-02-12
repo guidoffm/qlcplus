@@ -3,7 +3,7 @@
 <FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.12.7</Version>
+  <Version>4.14.0</Version>
   <Author>guido</Author>
  </Creator>
  <Manufacturer>Lixada</Manufacturer>
@@ -42,7 +42,7 @@
  </Channel>
  <Channel Name="Speed Adjustable">
   <Group Byte="0">Speed</Group>
-  <Capability Min="0" Max="255"></Capability>
+  <Capability Min="0" Max="255">Speed</Capability>
  </Channel>
  <Channel Name="Master dimmer" Preset="IntensityMasterDimmer"/>
  <Channel Name="Red" Preset="IntensityRed"/>
@@ -60,8 +60,8 @@
   <Channel Number="7">White</Channel>
  </Mode>
  <Physical>
-  <Bulb Type="" Lumens="0" ColourTemperature="0"/>
-  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0.39" Width="115" Height="115" Depth="135"/>
   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
   <Technical PowerConsumption="15" DmxConnector="3-pin"/>

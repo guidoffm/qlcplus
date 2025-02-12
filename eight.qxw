@@ -512,9 +512,15 @@
   </Function>
   <Function ID="76" Type="Scene" Name=" Empty">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>1,2</ChannelGroupsVal>
    <FixtureVal ID="5">11,0</FixtureVal>
    <FixtureVal ID="8">10,15</FixtureVal>
    <FixtureVal ID="4">0,28</FixtureVal>
+   <FixtureVal ID="0">0,2</FixtureVal>
+   <FixtureVal ID="1">0,2</FixtureVal>
+   <FixtureVal ID="2">0,2</FixtureVal>
+   <FixtureVal ID="3">0,2</FixtureVal>
+   <FixtureVal ID="6">0,0</FixtureVal>
   </Function>
   <Function ID="77" Type="Chaser" Name="Fog 100% 10s">
    <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
