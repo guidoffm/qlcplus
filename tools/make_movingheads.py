@@ -67,6 +67,8 @@ def aim(r, tx, tz, ty):
     horiz = math.hypot(dx, dz)
     heading = math.degrees(math.atan2(dx, dz))          # 0 = vorne, 90 = rechts
     pan_deg = PAN_ZERO_DEG + PAN_SIGN * heading         # heading -180..180 -> 180..540°
+    if pan_deg > 450:                                   # Arbeitsbereich 90..450°: Platz für Bewegungen
+        pan_deg -= 360
     off = math.degrees(math.atan2(horiz, HEIGHT - ty))
     pan = round(pan_deg / 540 * 65535)
     tilt = round(32768 + TILT_SIGN * off / 180 * 65535)
