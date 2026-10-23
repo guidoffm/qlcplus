@@ -238,8 +238,10 @@ for note, b in mapped.items():
     fb = int(re.search(r'UpperValue="(\d+)"', b["rest"]).group(1))
     b["bg"] = str(0xFF000000 | PALETTE[fb])
 
-FONT = "Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1"
-PAD_W, PAD_H, GAP, X0, Y0 = 104, 72, 8, 40, 40
+# Seite 640 x 640: 8 Pad-Spalten + Scene-Spalte, 8 Pad-Reihen + Track-Reihe, Fader füllen den Rest
+PAGE = 640
+FONT = "Roboto Condensed,8,-1,5,600,0,0,0,0,0,0,0,0,0,0,1"
+PAD_W, PAD_H, GAP, X0, Y0, BTN_H = 63, 40, 6, 8, 8, 28
 next_id = 200
 def new_id():
     global next_id
@@ -278,10 +280,10 @@ for name, r0, r1, ncol in SOLO:
         for col in range(ncol):
             in_solo.add((row, col))
             x, y = cell(row, col)
-            inner += widget((7 - row) * 8 + col, x - fx + 4, y - fy + 4, PAD_W, PAD_H)
+            inner += widget((7 - row) * 8 + col, x - fx + 2, y - fy + 2, PAD_W, PAD_H)
     widgets += (f'   <SoloFrame Caption="{name}" ID="{new_id()}">\n'
-                f'    <WindowState Visible="True" X="{fx - 4}" Y="{fy - 4}" '
-                f'Width="{ncol * (PAD_W + GAP) - GAP + 8}" Height="{(r1 - r0 + 1) * (PAD_H + GAP) - GAP + 8}"/>\n'
+                f'    <WindowState Visible="True" X="{fx - 2}" Y="{fy - 2}" '
+                f'Width="{ncol * (PAD_W + GAP) - GAP + 4}" Height="{(r1 - r0 + 1) * (PAD_H + GAP) - GAP + 4}"/>\n'
                 f'    <AllowResize>False</AllowResize>\n    <ShowHeader>False</ShowHeader>\n'
                 f'    <ShowEnableButton>False</ShowEnableButton>\n    <Collapsed>False</Collapsed>\n'
                 f'    <Disabled>False</Disabled>\n' + inner.replace("\n   <", "\n    <").replace("   <Button", "    <Button", 1)
@@ -291,35 +293,31 @@ for row in range(8):
         if (row, col) not in in_solo:
             widgets += widget((7 - row) * 8 + col, *cell(row, col), PAD_W, PAD_H)
 SCENE = ["CLIP STOP", "SOLO", "MUTE", "REC ARM", "SELECT", "DRUM", "NOTE", "STOP ALL"]
-xs = X0 + 8 * (PAD_W + GAP) + 16
+xs = X0 + 8 * (PAD_W + GAP) + GAP
 for i, name in enumerate(SCENE):           # rechte Spalte, Noten 112-119
-    widgets += widget(112 + i, xs, Y0 + i * (PAD_H + GAP) + 16, 104, 40, name)
-yt = Y0 + 8 * (PAD_H + GAP) + 8
-widgets += widget(122, xs, yt, 104, 40, "SHIFT")
+    widgets += widget(112 + i, xs, Y0 + i * (PAD_H + GAP) + (PAD_H - BTN_H) // 2, PAD_W, BTN_H, name)
+yt = Y0 + 8 * (PAD_H + GAP)
+widgets += widget(122, xs, yt, PAD_W, BTN_H, "SHIFT")
 TRACK = ["VOLUME", "PAN", "SEND", "DEVICE", "▲", "▼", "◀", "▶"]
 for i, name in enumerate(TRACK):           # untere Reihe, Noten 100-107
-    widgets += widget(100 + i, X0 + i * (PAD_W + GAP), yt, PAD_W, 40, name)
-yf = yt + 56
+    widgets += widget(100 + i, X0 + i * (PAD_W + GAP), yt, PAD_W, BTN_H, name)
+yf = yt + BTN_H + GAP
+FADER_H = PAGE - Y0 - yf
 for i in range(9):                         # Fader 1-8 und Master (CC 48-56)
-    x = X0 + i * (PAD_W + GAP) + (16 if i == 8 else 0)
+    x = X0 + i * (PAD_W + GAP) + (GAP if i == 8 else 0)
     if i in sliders:
         sl = sliders[i]
         widgets += (f'   <Slider Caption="{sl["caption"]}" ID="{sl["id"]}"{sl["attrs"]}>\n'
-                    f'    <WindowState Visible="True" X="{x}" Y="{yf}" Width="{PAD_W}" Height="250"/>\n'
+                    f'    <WindowState Visible="True" X="{x + 5}" Y="{yf}" Width="{PAD_W - 10}" Height="{FADER_H}"/>\n'
                     f'    {appearance("4294967295", sl["bg"])}\n    {sl["rest"]}\n   </Slider>\n')
     else:
         widgets += (f'   <Label Caption="{"MASTER" if i == 8 else i + 1}" ID="{new_id()}">\n'
-                    f'    <WindowState Visible="True" X="{x}" Y="{yf}" Width="{PAD_W}" Height="250"/>\n'
+                    f'    <WindowState Visible="True" X="{x}" Y="{yf}" Width="{PAD_W}" Height="{FADER_H}"/>\n'
                     f'    {appearance("4288256409", "4280558628")}\n   </Label>\n')
-
-# Gesamte Seite auf 60 % verkleinern (Positionen, Größen, Schrift)
-SCALE = 0.6
-widgets = re.sub(r'(X|Y|Width|Height)="(\d+)"', lambda m: f'{m.group(1)}="{round(int(m.group(2)) * SCALE)}"', widgets)
-widgets = widgets.replace("Roboto Condensed,11,", "Roboto Condensed,8,")
 
 page2_end = s.index("  </Frame>\n", page1_end)
 page2 = s[page1_end:page2_end].replace('Caption="Seite 2"', 'Caption="APC"')
-page2 = page2.replace('Width="1920" Height="1080"', 'Width="640" Height="640"')   # passend zum Inhalt, ohne Scrollen
+page2 = page2.replace('Width="1920" Height="1080"', f'Width="{PAGE}" Height="{PAGE}"')   # passend zum Inhalt
 s = s[:page1_start] + page2 + widgets + s[page2_end:]
 s = re.sub(r'  <Frame Caption="Seite [34]" ID="\d+">.*?\n  </Frame>\n', "", s, flags=re.S)  # leere Seiten
 print("APC-Seite:", len(mapped), "Tasten,", len(sliders), "Fader")
