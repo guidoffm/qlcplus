@@ -4629,7 +4629,7 @@
      </Appearance>
      <Function ID="89"/>
      <Action>Toggle</Action>
-     <Input ID="0" Universe="0" Channel="171" LowerValue="6" UpperValue="6" MonitorValue="6" LowerParams="1" UpperParams="6" MonitorParams="6"/>
+     <Input ID="0" Universe="0" Channel="168" LowerValue="6" UpperValue="6" MonitorValue="6" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
     <Button Caption="Senkrecht" ID="76">
      <WindowState Visible="True" X="150" Y="24" Width="102" Height="102"/>
@@ -4639,7 +4639,7 @@
      </Appearance>
      <Function ID="90"/>
      <Action>Toggle</Action>
-     <Input ID="0" Universe="0" Channel="172" LowerValue="6" UpperValue="6" MonitorValue="6" LowerParams="1" UpperParams="6" MonitorParams="6"/>
+     <Input ID="0" Universe="0" Channel="169" LowerValue="6" UpperValue="6" MonitorValue="6" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
     <Button Caption="Kreuz" ID="77">
      <WindowState Visible="True" X="24" Y="150" Width="102" Height="102"/>
@@ -4649,7 +4649,7 @@
      </Appearance>
      <Function ID="91"/>
      <Action>Toggle</Action>
-     <Input ID="0" Universe="0" Channel="173" LowerValue="6" UpperValue="6" MonitorValue="6" LowerParams="1" UpperParams="6" MonitorParams="6"/>
+     <Input ID="0" Universe="0" Channel="170" LowerValue="6" UpperValue="6" MonitorValue="6" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
     <Button Caption="Publikum" ID="78">
      <WindowState Visible="True" X="150" Y="150" Width="102" Height="102"/>
@@ -4659,7 +4659,7 @@
      </Appearance>
      <Function ID="92"/>
      <Action>Toggle</Action>
-     <Input ID="0" Universe="0" Channel="174" LowerValue="6" UpperValue="6" MonitorValue="6" LowerParams="1" UpperParams="6" MonitorParams="6"/>
+     <Input ID="0" Universe="0" Channel="171" LowerValue="6" UpperValue="6" MonitorValue="6" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
    </SoloFrame>
    <SoloFrame Caption="Bewegung" ID="88">
@@ -5024,7 +5024,7 @@
       </Appearance>
       <Function ID="31"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="176" LowerValue="26" UpperValue="26" MonitorValue="26" LowerParams="1" UpperParams="6" MonitorParams="6"/>
+      <Input ID="0" Universe="0" Channel="189" LowerValue="26" UpperValue="26" MonitorValue="26" LowerParams="1" UpperParams="6" MonitorParams="6"/>
      </Button>
      <Button Caption="Magenta" ID="14">
       <WindowState Visible="True" X="528" Y="24" Width="102" Height="102"/>
@@ -5063,7 +5063,7 @@
       </Appearance>
       <Function ID="57"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="170" LowerValue="238" UpperValue="238" MonitorValue="238" LowerParams="1" UpperParams="6" MonitorParams="6"/>
+      <Input ID="0" Universe="0" Channel="179" LowerValue="238" UpperValue="238" MonitorValue="238" LowerParams="1" UpperParams="6" MonitorParams="6"/>
      </Button>
      <Button Caption="Lime" ID="17">
       <WindowState Visible="True" X="276" Y="150" Width="102" Height="102"/>
@@ -5073,7 +5073,7 @@
       </Appearance>
       <Function ID="33"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="178" LowerValue="34" UpperValue="34" MonitorValue="34" LowerParams="1" UpperParams="6" MonitorParams="6"/>
+      <Input ID="0" Universe="0" Channel="177" LowerValue="34" UpperValue="34" MonitorValue="34" LowerParams="1" UpperParams="6" MonitorParams="6"/>
      </Button>
      <Button Caption="White" ID="18">
       <WindowState Visible="True" X="402" Y="150" Width="102" Height="102"/>
@@ -5083,7 +5083,7 @@
       </Appearance>
       <Function ID="34"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="179" LowerValue="6" UpperValue="6" MonitorValue="6" LowerParams="1" UpperParams="6" MonitorParams="6"/>
+      <Input ID="0" Universe="0" Channel="178" LowerValue="6" UpperValue="6" MonitorValue="6" LowerParams="1" UpperParams="6" MonitorParams="6"/>
      </Button>
      <Button Caption="Füllen/Leeren" ID="45">
       <WindowState Visible="True" X="276" Y="402" Width="102" Height="102"/>
@@ -5112,7 +5112,7 @@
       </Appearance>
       <Function ID="55"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="168" LowerValue="112" UpperValue="112" MonitorValue="112" LowerParams="1" UpperParams="6" MonitorParams="6"/>
+      <Input ID="0" Universe="0" Channel="180" LowerValue="112" UpperValue="112" MonitorValue="112" LowerParams="1" UpperParams="6" MonitorParams="6"/>
      </Button>
      <Button Caption="Feuer" ID="50">
       <WindowState Visible="True" X="276" Y="528" Width="102" Height="102"/>
@@ -5151,7 +5151,7 @@
       </Appearance>
       <Function ID="32"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="177" LowerValue="192" UpperValue="192" MonitorValue="192" LowerParams="1" UpperParams="6" MonitorParams="6"/>
+      <Input ID="0" Universe="0" Channel="190" LowerValue="192" UpperValue="192" MonitorValue="192" LowerParams="1" UpperParams="6" MonitorParams="6"/>
      </Button>
      <Button Caption="Orange" ID="33">
       <WindowState Visible="True" X="528" Y="150" Width="102" Height="102"/>
@@ -5161,7 +5161,7 @@
       </Appearance>
       <Function ID="54"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="180" LowerValue="18" UpperValue="18" MonitorValue="18" LowerParams="1" UpperParams="6" MonitorParams="6"/>
+      <Input ID="0" Universe="0" Channel="176" LowerValue="18" UpperValue="18" MonitorValue="18" LowerParams="1" UpperParams="6" MonitorParams="6"/>
      </Button>
      <Button Caption="Farbüberblendung" ID="49">
       <WindowState Visible="True" X="150" Y="528" Width="102" Height="102"/>
@@ -5190,7 +5190,7 @@
       </Appearance>
       <Function ID="56"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="169" LowerValue="162" UpperValue="162" MonitorValue="162" LowerParams="1" UpperParams="6" MonitorParams="6"/>
+      <Input ID="0" Universe="0" Channel="181" LowerValue="162" UpperValue="162" MonitorValue="162" LowerParams="1" UpperParams="6" MonitorParams="6"/>
      </Button>
      <Button Caption="Ping-Pong" ID="44">
       <WindowState Visible="True" X="150" Y="402" Width="102" Height="102"/>
@@ -5277,7 +5277,7 @@
     </SoloFrame>
    </Frame>
   </Frame>
-  <Frame Caption="Seite 2" ID="1">
+  <Frame Caption="APC" ID="1">
    <Appearance>
     <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
    </Appearance>
@@ -5287,6 +5287,844 @@
    <ShowEnableButton>True</ShowEnableButton>
    <Collapsed>False</Collapsed>
    <Disabled>False</Disabled>
+   <Button Caption="Red" ID="201">
+    <WindowState Visible="True" X="40" Y="40" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4294901760</BackgroundColor>
+    </Appearance>
+    <Function ID="26"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Green" ID="202">
+    <WindowState Visible="True" X="152" Y="40" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4278255360</BackgroundColor>
+    </Appearance>
+    <Function ID="27"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Blue" ID="203">
+    <WindowState Visible="True" X="264" Y="40" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4278190335</BackgroundColor>
+    </Appearance>
+    <Function ID="28"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Cyan" ID="204">
+    <WindowState Visible="True" X="376" Y="40" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4278255615</BackgroundColor>
+    </Appearance>
+    <Function ID="29"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Magenta" ID="205">
+    <WindowState Visible="True" X="488" Y="40" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294902015</BackgroundColor>
+    </Appearance>
+    <Function ID="30"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Yellow" ID="206">
+    <WindowState Visible="True" X="600" Y="40" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294967040</BackgroundColor>
+    </Appearance>
+    <Function ID="31"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Amber" ID="207">
+    <WindowState Visible="True" X="712" Y="40" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294950656</BackgroundColor>
+    </Appearance>
+    <Function ID="32"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Strobe" ID="208">
+    <WindowState Visible="True" X="824" Y="40" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4282400832</BackgroundColor>
+    </Appearance>
+    <Function ID="58"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Orange" ID="209">
+    <WindowState Visible="True" X="40" Y="120" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294922240</BackgroundColor>
+    </Appearance>
+    <Function ID="54"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Lime" ID="210">
+    <WindowState Visible="True" X="152" Y="120" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4290772736</BackgroundColor>
+    </Appearance>
+    <Function ID="33"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="White" ID="211">
+    <WindowState Visible="True" X="264" Y="120" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294967295</BackgroundColor>
+    </Appearance>
+    <Function ID="34"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="White LED" ID="212">
+    <WindowState Visible="True" X="376" Y="120" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4292935679</BackgroundColor>
+    </Appearance>
+    <Function ID="57"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Pink" ID="213">
+    <WindowState Visible="True" X="488" Y="120" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294910080</BackgroundColor>
+    </Appearance>
+    <Function ID="55"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Purple" ID="214">
+    <WindowState Visible="True" X="600" Y="120" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4286185727</BackgroundColor>
+    </Appearance>
+    <Function ID="56"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Label Caption="" ID="215">
+    <WindowState Visible="True" X="712" Y="120" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="" ID="216">
+    <WindowState Visible="True" X="824" Y="120" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Button Caption="Mitte" ID="217">
+    <WindowState Visible="True" X="40" Y="200" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294967295</BackgroundColor>
+    </Appearance>
+    <Function ID="89"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Senkrecht" ID="218">
+    <WindowState Visible="True" X="152" Y="200" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294967295</BackgroundColor>
+    </Appearance>
+    <Function ID="90"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Kreuz" ID="219">
+    <WindowState Visible="True" X="264" Y="200" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294967295</BackgroundColor>
+    </Appearance>
+    <Function ID="91"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Publikum" ID="220">
+    <WindowState Visible="True" X="376" Y="200" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294967295</BackgroundColor>
+    </Appearance>
+    <Function ID="92"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Label Caption="" ID="221">
+    <WindowState Visible="True" X="488" Y="200" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="" ID="222">
+    <WindowState Visible="True" X="600" Y="200" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="" ID="223">
+    <WindowState Visible="True" X="712" Y="200" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="" ID="224">
+    <WindowState Visible="True" X="824" Y="200" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Button Caption="Lauflicht" ID="225">
+    <WindowState Visible="True" X="40" Y="280" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4278233599</BackgroundColor>
+    </Appearance>
+    <Function ID="59"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Ping-Pong" ID="226">
+    <WindowState Visible="True" X="152" Y="280" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294902015</BackgroundColor>
+    </Appearance>
+    <Function ID="60"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Füllen/Leeren" ID="227">
+    <WindowState Visible="True" X="264" Y="280" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4278190335</BackgroundColor>
+    </Appearance>
+    <Function ID="61"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Polizei" ID="228">
+    <WindowState Visible="True" X="376" Y="280" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4294901760</BackgroundColor>
+    </Appearance>
+    <Function ID="62"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Regenbogen" ID="229">
+    <WindowState Visible="True" X="488" Y="280" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294921216</BackgroundColor>
+    </Appearance>
+    <Function ID="63"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Plasma" ID="230">
+    <WindowState Visible="True" X="600" Y="280" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4286185727</BackgroundColor>
+    </Appearance>
+    <Function ID="64"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Farbüberblendung" ID="231">
+    <WindowState Visible="True" X="712" Y="280" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4278255360</BackgroundColor>
+    </Appearance>
+    <Function ID="65"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Feuer" ID="232">
+    <WindowState Visible="True" X="824" Y="280" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294908416</BackgroundColor>
+    </Appearance>
+    <Function ID="66"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Radar" ID="233">
+    <WindowState Visible="True" X="40" Y="360" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4278255615</BackgroundColor>
+    </Appearance>
+    <Function ID="73"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Ripple" ID="234">
+    <WindowState Visible="True" X="152" Y="360" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4278190335</BackgroundColor>
+    </Appearance>
+    <Function ID="74"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Kreisen" ID="235">
+    <WindowState Visible="True" X="264" Y="360" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294902015</BackgroundColor>
+    </Appearance>
+    <Function ID="75"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Meteor" ID="236">
+    <WindowState Visible="True" X="376" Y="360" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294967295</BackgroundColor>
+    </Appearance>
+    <Function ID="76"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Jonglieren" ID="237">
+    <WindowState Visible="True" X="488" Y="360" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294908416</BackgroundColor>
+    </Appearance>
+    <Function ID="77"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Wellen" ID="238">
+    <WindowState Visible="True" X="600" Y="360" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4278255615</BackgroundColor>
+    </Appearance>
+    <Function ID="78"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Gegenlauf" ID="239">
+    <WindowState Visible="True" X="712" Y="360" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4286185727</BackgroundColor>
+    </Appearance>
+    <Function ID="79"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Traversen-Wechsel" ID="240">
+    <WindowState Visible="True" X="824" Y="360" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294967295</BackgroundColor>
+    </Appearance>
+    <Function ID="80"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Mitte füllen" ID="241">
+    <WindowState Visible="True" X="40" Y="440" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294908416</BackgroundColor>
+    </Appearance>
+    <Function ID="81"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Streifen" ID="242">
+    <WindowState Visible="True" X="152" Y="440" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4294901760</BackgroundColor>
+    </Appearance>
+    <Function ID="82"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Zufall" ID="243">
+    <WindowState Visible="True" X="264" Y="440" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294910080</BackgroundColor>
+    </Appearance>
+    <Function ID="83"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Konfetti" ID="244">
+    <WindowState Visible="True" X="376" Y="440" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294967295</BackgroundColor>
+    </Appearance>
+    <Function ID="84"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Funkeln" ID="245">
+    <WindowState Visible="True" X="488" Y="440" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4281348144</BackgroundColor>
+    </Appearance>
+    <Function ID="85"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Aurora" ID="246">
+    <WindowState Visible="True" X="600" Y="440" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4281348144</BackgroundColor>
+    </Appearance>
+    <Function ID="86"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Ozean" ID="247">
+    <WindowState Visible="True" X="712" Y="440" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4281348144</BackgroundColor>
+    </Appearance>
+    <Function ID="87"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Gewitter" ID="248">
+    <WindowState Visible="True" X="824" Y="440" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4294967295</BackgroundColor>
+    </Appearance>
+    <Function ID="88"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Kreis" ID="249">
+    <WindowState Visible="True" X="40" Y="520" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4278255360</BackgroundColor>
+    </Appearance>
+    <Function ID="93"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Kreiswelle" ID="250">
+    <WindowState Visible="True" X="152" Y="520" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4278255360</BackgroundColor>
+    </Appearance>
+    <Function ID="94"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Acht" ID="251">
+    <WindowState Visible="True" X="264" Y="520" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4278255360</BackgroundColor>
+    </Appearance>
+    <Function ID="95"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Schwenk" ID="252">
+    <WindowState Visible="True" X="376" Y="520" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4278255360</BackgroundColor>
+    </Appearance>
+    <Function ID="96"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Welle" ID="253">
+    <WindowState Visible="True" X="488" Y="520" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4278255360</BackgroundColor>
+    </Appearance>
+    <Function ID="97"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Lissajous" ID="254">
+    <WindowState Visible="True" X="600" Y="520" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4278255360</BackgroundColor>
+    </Appearance>
+    <Function ID="98"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Raute" ID="255">
+    <WindowState Visible="True" X="712" Y="520" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4278255360</BackgroundColor>
+    </Appearance>
+    <Function ID="99"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Blatt" ID="256">
+    <WindowState Visible="True" X="824" Y="520" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4278190080</ForegroundColor>
+     <BackgroundColor>4278255360</BackgroundColor>
+    </Appearance>
+    <Function ID="100"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Auto 4 s" ID="257">
+    <WindowState Visible="True" X="40" Y="600" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4281348144</BackgroundColor>
+    </Appearance>
+    <Function ID="67"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Auto 8 s" ID="258">
+    <WindowState Visible="True" X="152" Y="600" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4281348144</BackgroundColor>
+    </Appearance>
+    <Function ID="68"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Auto 16 s" ID="259">
+    <WindowState Visible="True" X="264" Y="600" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4281348144</BackgroundColor>
+    </Appearance>
+    <Function ID="69"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Auto 32 s" ID="260">
+    <WindowState Visible="True" X="376" Y="600" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4281348144</BackgroundColor>
+    </Appearance>
+    <Function ID="70"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Auto 64 s" ID="261">
+    <WindowState Visible="True" X="488" Y="600" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4281348144</BackgroundColor>
+    </Appearance>
+    <Function ID="71"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Button Caption="Auto 128 s" ID="262">
+    <WindowState Visible="True" X="600" Y="600" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4281348144</BackgroundColor>
+    </Appearance>
+    <Function ID="72"/>
+    <Action>Toggle</Action>
+   </Button>
+   <Label Caption="" ID="263">
+    <WindowState Visible="True" X="712" Y="600" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="" ID="264">
+    <WindowState Visible="True" X="824" Y="600" Width="104" Height="72"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="CLIP STOP" ID="265">
+    <WindowState Visible="True" X="952" Y="56" Width="104" Height="40"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="SOLO" ID="266">
+    <WindowState Visible="True" X="952" Y="136" Width="104" Height="40"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="MUTE" ID="267">
+    <WindowState Visible="True" X="952" Y="216" Width="104" Height="40"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="REC ARM" ID="268">
+    <WindowState Visible="True" X="952" Y="296" Width="104" Height="40"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="SELECT" ID="269">
+    <WindowState Visible="True" X="952" Y="376" Width="104" Height="40"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="DRUM" ID="270">
+    <WindowState Visible="True" X="952" Y="456" Width="104" Height="40"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="NOTE" ID="271">
+    <WindowState Visible="True" X="952" Y="536" Width="104" Height="40"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Button Caption="Blackout" ID="272">
+    <WindowState Visible="True" X="952" Y="616" Width="104" Height="40"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4282664004</BackgroundColor>
+    </Appearance>
+    <Function ID="4294967295"/>
+    <Action>Blackout</Action>
+   </Button>
+   <Label Caption="SHIFT" ID="273">
+    <WindowState Visible="True" X="952" Y="688" Width="104" Height="40"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Button Caption="All Groups" ID="274">
+    <WindowState Visible="True" X="40" Y="688" Width="104" Height="40"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4282664004</BackgroundColor>
+    </Appearance>
+    <Function ID="52"/>
+    <Action Override="0" ForceLTP="0">Flash</Action>
+   </Button>
+   <Button Caption="Spots" ID="275">
+    <WindowState Visible="True" X="152" Y="688" Width="104" Height="40"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4282664004</BackgroundColor>
+    </Appearance>
+    <Function ID="53"/>
+    <Action Override="0" ForceLTP="0">Flash</Action>
+   </Button>
+   <Label Caption="SEND" ID="276">
+    <WindowState Visible="True" X="264" Y="688" Width="104" Height="40"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="DEVICE" ID="277">
+    <WindowState Visible="True" X="376" Y="688" Width="104" Height="40"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="▲" ID="278">
+    <WindowState Visible="True" X="488" Y="688" Width="104" Height="40"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="▼" ID="279">
+    <WindowState Visible="True" X="600" Y="688" Width="104" Height="40"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="◀" ID="280">
+    <WindowState Visible="True" X="712" Y="688" Width="104" Height="40"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="▶" ID="281">
+    <WindowState Visible="True" X="824" Y="688" Width="104" Height="40"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4288256409</ForegroundColor>
+     <BackgroundColor>4280558628</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="1 · Intensity" ID="282">
+    <WindowState Visible="True" X="40" Y="744" Width="104" Height="56"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4292927712</ForegroundColor>
+     <BackgroundColor>4279900698</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="2 · Rot" ID="283">
+    <WindowState Visible="True" X="152" Y="744" Width="104" Height="56"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4292927712</ForegroundColor>
+     <BackgroundColor>4279900698</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="3 · Grün" ID="284">
+    <WindowState Visible="True" X="264" Y="744" Width="104" Height="56"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4292927712</ForegroundColor>
+     <BackgroundColor>4279900698</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="4 · Blau" ID="285">
+    <WindowState Visible="True" X="376" Y="744" Width="104" Height="56"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4292927712</ForegroundColor>
+     <BackgroundColor>4279900698</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="5 · Weiß" ID="286">
+    <WindowState Visible="True" X="488" Y="744" Width="104" Height="56"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4292927712</ForegroundColor>
+     <BackgroundColor>4279900698</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="6" ID="287">
+    <WindowState Visible="True" X="600" Y="744" Width="104" Height="56"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4292927712</ForegroundColor>
+     <BackgroundColor>4279900698</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="7" ID="288">
+    <WindowState Visible="True" X="712" Y="744" Width="104" Height="56"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4292927712</ForegroundColor>
+     <BackgroundColor>4279900698</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="8" ID="289">
+    <WindowState Visible="True" X="824" Y="744" Width="104" Height="56"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4292927712</ForegroundColor>
+     <BackgroundColor>4279900698</BackgroundColor>
+    </Appearance>
+   </Label>
+   <Label Caption="MASTER" ID="290">
+    <WindowState Visible="True" X="952" Y="744" Width="104" Height="56"/>
+    <Appearance>
+     <Font>Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
+     <ForegroundColor>4292927712</ForegroundColor>
+     <BackgroundColor>4279900698</BackgroundColor>
+    </Appearance>
+   </Label>
   </Frame>
   <Frame Caption="Seite 3" ID="2">
    <Appearance>
