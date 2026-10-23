@@ -4263,21 +4263,21 @@
    <Appearance>
     <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
    </Appearance>
-   <WindowState Visible="True" X="0" Y="0" Width="1580" Height="990"/>
+   <WindowState Visible="True" X="0" Y="0" Width="1131" Height="990"/>
    <AllowResize>False</AllowResize>
    <ShowHeader>False</ShowHeader>
    <ShowEnableButton>True</ShowEnableButton>
    <Collapsed>False</Collapsed>
    <Disabled>False</Disabled>
    <SoloFrame Caption="Farben" ID="202">
-    <WindowState Visible="True" X="6" Y="6" Width="1205" Height="158"/>
+    <WindowState Visible="True" X="6" Y="6" Width="855" Height="158"/>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="Red" ID="10">
-    <WindowState Visible="True" X="2" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="2" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -4288,7 +4288,7 @@
       <Input ID="0" Universe="0" Channel="184" LowerValue="10" UpperValue="10" MonitorValue="10" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
     <Button Caption="Green" ID="11">
-    <WindowState Visible="True" X="175" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="125" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4299,7 +4299,7 @@
       <Input ID="0" Universe="0" Channel="185" LowerValue="42" UpperValue="42" MonitorValue="42" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
     <Button Caption="Blue" ID="12">
-    <WindowState Visible="True" X="348" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="248" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -4310,7 +4310,7 @@
       <Input ID="0" Universe="0" Channel="186" LowerValue="90" UpperValue="90" MonitorValue="90" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
     <Button Caption="Cyan" ID="13">
-    <WindowState Visible="True" X="521" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="371" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4321,7 +4321,7 @@
       <Input ID="0" Universe="0" Channel="187" LowerValue="180" UpperValue="180" MonitorValue="180" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
     <Button Caption="Magenta" ID="14">
-    <WindowState Visible="True" X="694" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="494" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4332,7 +4332,7 @@
       <Input ID="0" Universe="0" Channel="188" LowerValue="106" UpperValue="106" MonitorValue="106" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
     <Button Caption="Yellow" ID="15">
-    <WindowState Visible="True" X="867" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="617" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4343,7 +4343,7 @@
       <Input ID="0" Universe="0" Channel="189" LowerValue="26" UpperValue="26" MonitorValue="26" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
     <Button Caption="Amber" ID="16">
-    <WindowState Visible="True" X="1040" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="740" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4354,7 +4354,7 @@
       <Input ID="0" Universe="0" Channel="190" LowerValue="192" UpperValue="192" MonitorValue="192" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
     <Button Caption="Lime" ID="17">
-    <WindowState Visible="True" X="2" Y="84" Width="163" Height="72"/>
+    <WindowState Visible="True" X="2" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4365,7 +4365,7 @@
       <Input ID="0" Universe="0" Channel="176" LowerValue="148" UpperValue="148" MonitorValue="148" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
     <Button Caption="Orange" ID="33">
-    <WindowState Visible="True" X="175" Y="84" Width="163" Height="72"/>
+    <WindowState Visible="True" X="125" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4376,7 +4376,7 @@
       <Input ID="0" Universe="0" Channel="177" LowerValue="18" UpperValue="18" MonitorValue="18" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
     <Button Caption="White" ID="18">
-    <WindowState Visible="True" X="348" Y="84" Width="163" Height="72"/>
+    <WindowState Visible="True" X="248" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4387,7 +4387,7 @@
       <Input ID="0" Universe="0" Channel="178" LowerValue="6" UpperValue="6" MonitorValue="6" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
     <Button Caption="Purple" ID="35">
-    <WindowState Visible="True" X="521" Y="84" Width="163" Height="72"/>
+    <WindowState Visible="True" X="371" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -4398,7 +4398,7 @@
       <Input ID="0" Universe="0" Channel="179" LowerValue="162" UpperValue="162" MonitorValue="162" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
     <Button Caption="White LED" ID="36">
-    <WindowState Visible="True" X="694" Y="84" Width="163" Height="72"/>
+    <WindowState Visible="True" X="494" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4409,7 +4409,7 @@
       <Input ID="0" Universe="0" Channel="180" LowerValue="238" UpperValue="238" MonitorValue="238" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
     <Button Caption="Pink" ID="34">
-    <WindowState Visible="True" X="867" Y="84" Width="163" Height="72"/>
+    <WindowState Visible="True" X="617" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4420,7 +4420,7 @@
       <Input ID="0" Universe="0" Channel="181" LowerValue="112" UpperValue="112" MonitorValue="112" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
     <Label Caption="" ID="201">
-    <WindowState Visible="True" X="1040" Y="84" Width="163" Height="72"/>
+    <WindowState Visible="True" X="740" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -4429,14 +4429,14 @@
     </Label>
    </SoloFrame>
    <SoloFrame Caption="Positionen" ID="203">
-    <WindowState Visible="True" X="6" Y="170" Width="686" Height="76"/>
+    <WindowState Visible="True" X="6" Y="170" Width="486" Height="76"/>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="Mitte" ID="75">
-    <WindowState Visible="True" X="2" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="2" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4447,7 +4447,7 @@
      <Input ID="0" Universe="0" Channel="168" LowerValue="6" UpperValue="6" MonitorValue="6" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
     <Button Caption="Senkrecht" ID="76">
-    <WindowState Visible="True" X="175" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="125" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -4458,7 +4458,7 @@
      <Input ID="0" Universe="0" Channel="169" LowerValue="114" UpperValue="114" MonitorValue="114" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
     <Button Caption="Kreuz" ID="77">
-    <WindowState Visible="True" X="348" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="248" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -4469,7 +4469,7 @@
      <Input ID="0" Universe="0" Channel="170" LowerValue="98" UpperValue="98" MonitorValue="98" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
     <Button Caption="Publikum" ID="78">
-    <WindowState Visible="True" X="521" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="371" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4481,14 +4481,14 @@
     </Button>
    </SoloFrame>
    <SoloFrame Caption="Effekte" ID="204">
-    <WindowState Visible="True" X="6" Y="252" Width="1378" Height="240"/>
+    <WindowState Visible="True" X="6" Y="252" Width="978" Height="240"/>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="Lauflicht" ID="43">
-    <WindowState Visible="True" X="2" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="2" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -4499,7 +4499,7 @@
       <Input ID="0" Universe="0" Channel="160" LowerValue="10" UpperValue="10" MonitorValue="10" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Ping-Pong" ID="44">
-    <WindowState Visible="True" X="175" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="125" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4510,7 +4510,7 @@
       <Input ID="0" Universe="0" Channel="161" LowerValue="18" UpperValue="18" MonitorValue="18" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Füllen/Leeren" ID="45">
-    <WindowState Visible="True" X="348" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="248" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4521,7 +4521,7 @@
       <Input ID="0" Universe="0" Channel="162" LowerValue="26" UpperValue="26" MonitorValue="26" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Polizei" ID="46">
-    <WindowState Visible="True" X="521" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="371" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4532,7 +4532,7 @@
       <Input ID="0" Universe="0" Channel="163" LowerValue="42" UpperValue="42" MonitorValue="42" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Regenbogen" ID="47">
-    <WindowState Visible="True" X="694" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="494" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4543,7 +4543,7 @@
       <Input ID="0" Universe="0" Channel="164" LowerValue="66" UpperValue="66" MonitorValue="66" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Plasma" ID="48">
-    <WindowState Visible="True" X="867" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="617" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4554,7 +4554,7 @@
       <Input ID="0" Universe="0" Channel="165" LowerValue="74" UpperValue="74" MonitorValue="74" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Farbüberblendung" ID="49">
-    <WindowState Visible="True" X="1040" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="740" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -4565,7 +4565,7 @@
       <Input ID="0" Universe="0" Channel="166" LowerValue="90" UpperValue="90" MonitorValue="90" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Feuer" ID="50">
-    <WindowState Visible="True" X="1213" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="863" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4576,7 +4576,7 @@
       <Input ID="0" Universe="0" Channel="167" LowerValue="106" UpperValue="106" MonitorValue="106" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Radar" ID="58">
-    <WindowState Visible="True" X="2" Y="84" Width="163" Height="72"/>
+    <WindowState Visible="True" X="2" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4587,7 +4587,7 @@
      <Input ID="0" Universe="0" Channel="152" LowerValue="42" UpperValue="42" MonitorValue="42" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Ripple" ID="59">
-    <WindowState Visible="True" X="175" Y="84" Width="163" Height="72"/>
+    <WindowState Visible="True" X="125" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4598,7 +4598,7 @@
      <Input ID="0" Universe="0" Channel="153" LowerValue="66" UpperValue="66" MonitorValue="66" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Kreisen" ID="60">
-    <WindowState Visible="True" X="348" Y="84" Width="163" Height="72"/>
+    <WindowState Visible="True" X="248" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4609,7 +4609,7 @@
      <Input ID="0" Universe="0" Channel="154" LowerValue="74" UpperValue="74" MonitorValue="74" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Meteor" ID="61">
-    <WindowState Visible="True" X="521" Y="84" Width="163" Height="72"/>
+    <WindowState Visible="True" X="371" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -4620,7 +4620,7 @@
      <Input ID="0" Universe="0" Channel="155" LowerValue="90" UpperValue="90" MonitorValue="90" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Jonglieren" ID="62">
-    <WindowState Visible="True" X="694" Y="84" Width="163" Height="72"/>
+    <WindowState Visible="True" X="494" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4631,7 +4631,7 @@
      <Input ID="0" Universe="0" Channel="156" LowerValue="106" UpperValue="106" MonitorValue="106" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Wellen" ID="63">
-    <WindowState Visible="True" X="867" Y="84" Width="163" Height="72"/>
+    <WindowState Visible="True" X="617" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -4642,7 +4642,7 @@
      <Input ID="0" Universe="0" Channel="157" LowerValue="10" UpperValue="10" MonitorValue="10" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Gegenlauf" ID="64">
-    <WindowState Visible="True" X="1040" Y="84" Width="163" Height="72"/>
+    <WindowState Visible="True" X="740" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4653,7 +4653,7 @@
      <Input ID="0" Universe="0" Channel="158" LowerValue="18" UpperValue="18" MonitorValue="18" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Traversen-Wechsel" ID="65">
-    <WindowState Visible="True" X="1213" Y="84" Width="163" Height="72"/>
+    <WindowState Visible="True" X="863" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4664,7 +4664,7 @@
      <Input ID="0" Universe="0" Channel="159" LowerValue="26" UpperValue="26" MonitorValue="26" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Mitte füllen" ID="66">
-    <WindowState Visible="True" X="2" Y="166" Width="163" Height="72"/>
+    <WindowState Visible="True" X="2" Y="166" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -4675,7 +4675,7 @@
      <Input ID="0" Universe="0" Channel="144" LowerValue="90" UpperValue="90" MonitorValue="90" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Streifen" ID="67">
-    <WindowState Visible="True" X="175" Y="166" Width="163" Height="72"/>
+    <WindowState Visible="True" X="125" Y="166" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4686,7 +4686,7 @@
      <Input ID="0" Universe="0" Channel="145" LowerValue="106" UpperValue="106" MonitorValue="106" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Zufall" ID="68">
-    <WindowState Visible="True" X="348" Y="166" Width="163" Height="72"/>
+    <WindowState Visible="True" X="248" Y="166" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -4697,7 +4697,7 @@
      <Input ID="0" Universe="0" Channel="146" LowerValue="10" UpperValue="10" MonitorValue="10" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Konfetti" ID="69">
-    <WindowState Visible="True" X="521" Y="166" Width="163" Height="72"/>
+    <WindowState Visible="True" X="371" Y="166" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4708,7 +4708,7 @@
      <Input ID="0" Universe="0" Channel="147" LowerValue="18" UpperValue="18" MonitorValue="18" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Funkeln" ID="70">
-    <WindowState Visible="True" X="694" Y="166" Width="163" Height="72"/>
+    <WindowState Visible="True" X="494" Y="166" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4719,7 +4719,7 @@
      <Input ID="0" Universe="0" Channel="148" LowerValue="26" UpperValue="26" MonitorValue="26" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Aurora" ID="71">
-    <WindowState Visible="True" X="867" Y="166" Width="163" Height="72"/>
+    <WindowState Visible="True" X="617" Y="166" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4730,7 +4730,7 @@
      <Input ID="0" Universe="0" Channel="149" LowerValue="42" UpperValue="42" MonitorValue="42" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Ozean" ID="72">
-    <WindowState Visible="True" X="1040" Y="166" Width="163" Height="72"/>
+    <WindowState Visible="True" X="740" Y="166" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4741,7 +4741,7 @@
      <Input ID="0" Universe="0" Channel="150" LowerValue="66" UpperValue="66" MonitorValue="66" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Gewitter" ID="73">
-    <WindowState Visible="True" X="1213" Y="166" Width="163" Height="72"/>
+    <WindowState Visible="True" X="863" Y="166" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4753,14 +4753,14 @@
     </Button>
    </SoloFrame>
    <SoloFrame Caption="Bewegung" ID="205">
-    <WindowState Visible="True" X="6" Y="498" Width="1378" Height="76"/>
+    <WindowState Visible="True" X="6" Y="498" Width="978" Height="76"/>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="Kreis" ID="80">
-    <WindowState Visible="True" X="2" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="2" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4771,7 +4771,7 @@
      <Input ID="0" Universe="0" Channel="136" LowerValue="104" UpperValue="104" MonitorValue="104" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Kreiswelle" ID="81">
-    <WindowState Visible="True" X="175" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="125" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4782,7 +4782,7 @@
      <Input ID="0" Universe="0" Channel="137" LowerValue="8" UpperValue="8" MonitorValue="8" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Acht" ID="82">
-    <WindowState Visible="True" X="348" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="248" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4793,7 +4793,7 @@
      <Input ID="0" Universe="0" Channel="138" LowerValue="16" UpperValue="16" MonitorValue="16" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Schwenk" ID="83">
-    <WindowState Visible="True" X="521" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="371" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4804,7 +4804,7 @@
      <Input ID="0" Universe="0" Channel="139" LowerValue="24" UpperValue="24" MonitorValue="24" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Welle" ID="84">
-    <WindowState Visible="True" X="694" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="494" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4815,7 +4815,7 @@
      <Input ID="0" Universe="0" Channel="140" LowerValue="40" UpperValue="40" MonitorValue="40" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Lissajous" ID="85">
-    <WindowState Visible="True" X="867" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="617" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4826,7 +4826,7 @@
      <Input ID="0" Universe="0" Channel="141" LowerValue="64" UpperValue="64" MonitorValue="64" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Raute" ID="86">
-    <WindowState Visible="True" X="1040" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="740" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4837,7 +4837,7 @@
      <Input ID="0" Universe="0" Channel="142" LowerValue="72" UpperValue="72" MonitorValue="72" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Blatt" ID="87">
-    <WindowState Visible="True" X="1213" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="863" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4849,14 +4849,14 @@
     </Button>
    </SoloFrame>
    <SoloFrame Caption="Auto" ID="206">
-    <WindowState Visible="True" X="6" Y="580" Width="1032" Height="76"/>
+    <WindowState Visible="True" X="6" Y="580" Width="732" Height="76"/>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="Auto 4 s" ID="51">
-    <WindowState Visible="True" X="2" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="2" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4867,7 +4867,7 @@
       <Input ID="0" Universe="0" Channel="128" LowerValue="26" UpperValue="26" MonitorValue="26" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Auto 8 s" ID="52">
-    <WindowState Visible="True" X="175" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="125" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4878,7 +4878,7 @@
       <Input ID="0" Universe="0" Channel="129" LowerValue="42" UpperValue="42" MonitorValue="42" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Auto 16 s" ID="53">
-    <WindowState Visible="True" X="348" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="248" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4889,7 +4889,7 @@
       <Input ID="0" Universe="0" Channel="130" LowerValue="66" UpperValue="66" MonitorValue="66" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Auto 32 s" ID="54">
-    <WindowState Visible="True" X="521" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="371" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4900,7 +4900,7 @@
       <Input ID="0" Universe="0" Channel="131" LowerValue="74" UpperValue="74" MonitorValue="74" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Auto 64 s" ID="55">
-    <WindowState Visible="True" X="694" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="494" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -4911,7 +4911,7 @@
       <Input ID="0" Universe="0" Channel="132" LowerValue="90" UpperValue="90" MonitorValue="90" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
     <Button Caption="Auto 128 s" ID="56">
-    <WindowState Visible="True" X="867" Y="2" Width="163" Height="72"/>
+    <WindowState Visible="True" X="617" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4923,7 +4923,7 @@
     </Button>
    </SoloFrame>
    <Button Caption="Strobe" ID="42">
-    <WindowState Visible="True" X="1219" Y="8" Width="163" Height="72"/>
+    <WindowState Visible="True" X="869" Y="8" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4278190080</ForegroundColor>
@@ -4934,7 +4934,7 @@
     <Input ID="0" Universe="0" Channel="191" LowerValue="6" UpperValue="6" MonitorValue="6" LowerParams="1" UpperParams="14" MonitorParams="14"/>
    </Button>
    <Label Caption="" ID="207">
-    <WindowState Visible="True" X="1219" Y="90" Width="163" Height="72"/>
+    <WindowState Visible="True" X="869" Y="90" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -4942,7 +4942,7 @@
     </Appearance>
    </Label>
    <Label Caption="" ID="208">
-    <WindowState Visible="True" X="700" Y="172" Width="163" Height="72"/>
+    <WindowState Visible="True" X="500" Y="172" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -4950,7 +4950,7 @@
     </Appearance>
    </Label>
    <Label Caption="" ID="209">
-    <WindowState Visible="True" X="873" Y="172" Width="163" Height="72"/>
+    <WindowState Visible="True" X="623" Y="172" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -4958,7 +4958,7 @@
     </Appearance>
    </Label>
    <Label Caption="" ID="210">
-    <WindowState Visible="True" X="1046" Y="172" Width="163" Height="72"/>
+    <WindowState Visible="True" X="746" Y="172" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -4966,7 +4966,7 @@
     </Appearance>
    </Label>
    <Label Caption="" ID="211">
-    <WindowState Visible="True" X="1219" Y="172" Width="163" Height="72"/>
+    <WindowState Visible="True" X="869" Y="172" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -4974,7 +4974,7 @@
     </Appearance>
    </Label>
    <Label Caption="" ID="212">
-    <WindowState Visible="True" X="1046" Y="582" Width="163" Height="72"/>
+    <WindowState Visible="True" X="746" Y="582" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -4982,7 +4982,7 @@
     </Appearance>
    </Label>
    <Label Caption="" ID="213">
-    <WindowState Visible="True" X="1219" Y="582" Width="163" Height="72"/>
+    <WindowState Visible="True" X="869" Y="582" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -4990,7 +4990,7 @@
     </Appearance>
    </Label>
    <Label Caption="CLIP STOP" ID="214">
-    <WindowState Visible="True" X="1402" Y="24" Width="163" Height="40"/>
+    <WindowState Visible="True" X="1002" Y="24" Width="113" Height="40"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -4998,7 +4998,7 @@
     </Appearance>
    </Label>
    <Label Caption="SOLO" ID="215">
-    <WindowState Visible="True" X="1402" Y="106" Width="163" Height="40"/>
+    <WindowState Visible="True" X="1002" Y="106" Width="113" Height="40"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -5006,7 +5006,7 @@
     </Appearance>
    </Label>
    <Label Caption="MUTE" ID="216">
-    <WindowState Visible="True" X="1402" Y="188" Width="163" Height="40"/>
+    <WindowState Visible="True" X="1002" Y="188" Width="113" Height="40"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -5014,7 +5014,7 @@
     </Appearance>
    </Label>
    <Label Caption="REC ARM" ID="217">
-    <WindowState Visible="True" X="1402" Y="270" Width="163" Height="40"/>
+    <WindowState Visible="True" X="1002" Y="270" Width="113" Height="40"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -5022,7 +5022,7 @@
     </Appearance>
    </Label>
    <Label Caption="SELECT" ID="218">
-    <WindowState Visible="True" X="1402" Y="352" Width="163" Height="40"/>
+    <WindowState Visible="True" X="1002" Y="352" Width="113" Height="40"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -5030,7 +5030,7 @@
     </Appearance>
    </Label>
    <Label Caption="DRUM" ID="219">
-    <WindowState Visible="True" X="1402" Y="434" Width="163" Height="40"/>
+    <WindowState Visible="True" X="1002" Y="434" Width="113" Height="40"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -5038,7 +5038,7 @@
     </Appearance>
    </Label>
    <Label Caption="NOTE" ID="220">
-    <WindowState Visible="True" X="1402" Y="516" Width="163" Height="40"/>
+    <WindowState Visible="True" X="1002" Y="516" Width="113" Height="40"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -5046,7 +5046,7 @@
     </Appearance>
    </Label>
    <Button Caption="Blackout" ID="7">
-    <WindowState Visible="True" X="1402" Y="598" Width="163" Height="40"/>
+    <WindowState Visible="True" X="1002" Y="598" Width="113" Height="40"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -5057,7 +5057,7 @@
      <Input ID="0" Universe="0" Channel="247" LowerValue="1" UpperValue="4" MonitorValue="4" LowerParams="0" UpperParams="0" MonitorParams="0"/>
    </Button>
    <Label Caption="SHIFT" ID="221">
-    <WindowState Visible="True" X="1402" Y="664" Width="163" Height="40"/>
+    <WindowState Visible="True" X="1002" Y="664" Width="113" Height="40"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -5065,7 +5065,7 @@
     </Appearance>
    </Label>
    <Button Caption="All Groups" ID="5">
-    <WindowState Visible="True" X="8" Y="664" Width="163" Height="40"/>
+    <WindowState Visible="True" X="8" Y="664" Width="113" Height="40"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -5076,7 +5076,7 @@
      <Input ID="0" Universe="0" Channel="228" LowerValue="1" UpperValue="2" MonitorValue="2" LowerParams="0" UpperParams="0" MonitorParams="0"/>
    </Button>
    <Button Caption="Spots" ID="6">
-    <WindowState Visible="True" X="181" Y="664" Width="163" Height="40"/>
+    <WindowState Visible="True" X="131" Y="664" Width="113" Height="40"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -5087,7 +5087,7 @@
      <Input ID="0" Universe="0" Channel="229" LowerValue="1" UpperValue="2" MonitorValue="2" LowerParams="0" UpperParams="0" MonitorParams="0"/>
    </Button>
    <Label Caption="SEND" ID="222">
-    <WindowState Visible="True" X="354" Y="664" Width="163" Height="40"/>
+    <WindowState Visible="True" X="254" Y="664" Width="113" Height="40"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -5095,7 +5095,7 @@
     </Appearance>
    </Label>
    <Label Caption="DEVICE" ID="223">
-    <WindowState Visible="True" X="527" Y="664" Width="163" Height="40"/>
+    <WindowState Visible="True" X="377" Y="664" Width="113" Height="40"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -5103,7 +5103,7 @@
     </Appearance>
    </Label>
    <Label Caption="▲" ID="224">
-    <WindowState Visible="True" X="700" Y="664" Width="163" Height="40"/>
+    <WindowState Visible="True" X="500" Y="664" Width="113" Height="40"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -5111,7 +5111,7 @@
     </Appearance>
    </Label>
    <Label Caption="▼" ID="225">
-    <WindowState Visible="True" X="873" Y="664" Width="163" Height="40"/>
+    <WindowState Visible="True" X="623" Y="664" Width="113" Height="40"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -5119,7 +5119,7 @@
     </Appearance>
    </Label>
    <Label Caption="◀" ID="226">
-    <WindowState Visible="True" X="1046" Y="664" Width="163" Height="40"/>
+    <WindowState Visible="True" X="746" Y="664" Width="113" Height="40"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -5127,7 +5127,7 @@
     </Appearance>
    </Label>
    <Label Caption="▶" ID="227">
-    <WindowState Visible="True" X="1219" Y="664" Width="163" Height="40"/>
+    <WindowState Visible="True" X="869" Y="664" Width="113" Height="40"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -5135,7 +5135,7 @@
     </Appearance>
    </Label>
    <Slider Caption="Intensity" ID="8" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="48" Y="714" Width="81" Height="268"/>
+    <WindowState Visible="True" X="36" Y="714" Width="56" Height="268"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -5179,7 +5179,7 @@
      </Level>
    </Slider>
    <Slider Caption="Rot" ID="37" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="221" Y="714" Width="81" Height="268"/>
+    <WindowState Visible="True" X="159" Y="714" Width="56" Height="268"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -5223,7 +5223,7 @@
     </Level>
    </Slider>
    <Slider Caption="Grün" ID="38" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="394" Y="714" Width="81" Height="268"/>
+    <WindowState Visible="True" X="282" Y="714" Width="56" Height="268"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -5267,7 +5267,7 @@
     </Level>
    </Slider>
    <Slider Caption="Blau" ID="39" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="567" Y="714" Width="81" Height="268"/>
+    <WindowState Visible="True" X="405" Y="714" Width="56" Height="268"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -5311,7 +5311,7 @@
     </Level>
    </Slider>
    <Slider Caption="Weiß" ID="40" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="740" Y="714" Width="81" Height="268"/>
+    <WindowState Visible="True" X="528" Y="714" Width="56" Height="268"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -5355,7 +5355,7 @@
     </Level>
    </Slider>
    <Label Caption="6" ID="228">
-    <WindowState Visible="True" X="873" Y="714" Width="163" Height="268"/>
+    <WindowState Visible="True" X="623" Y="714" Width="113" Height="268"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -5363,7 +5363,7 @@
     </Appearance>
    </Label>
    <Label Caption="7" ID="229">
-    <WindowState Visible="True" X="1046" Y="714" Width="163" Height="268"/>
+    <WindowState Visible="True" X="746" Y="714" Width="113" Height="268"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -5371,7 +5371,7 @@
     </Appearance>
    </Label>
    <Label Caption="8" ID="230">
-    <WindowState Visible="True" X="1219" Y="714" Width="163" Height="268"/>
+    <WindowState Visible="True" X="869" Y="714" Width="113" Height="268"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>
@@ -5379,7 +5379,7 @@
     </Appearance>
    </Label>
    <Label Caption="MASTER" ID="231">
-    <WindowState Visible="True" X="1402" Y="714" Width="163" Height="268"/>
+    <WindowState Visible="True" X="1002" Y="714" Width="113" Height="268"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4288256409</ForegroundColor>

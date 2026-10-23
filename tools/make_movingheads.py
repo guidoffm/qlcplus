@@ -239,9 +239,10 @@ for note, b in mapped.items():
     fb = int(re.search(r'UpperValue="(\d+)"', b["rest"]).group(1))
     b["bg"] = str(0xFF000000 | PALETTE[fb])
 
-# Seite so groß wie der Konsolenbereich des QLC+-Fensters: 8 Pad-Spalten + Scene-Spalte,
-# 8 Pad-Reihen + Track-Reihe, Fader füllen den Rest
-PAGE_W, PAGE_H = 1580, 990
+# Seite so hoch wie der Konsolenbereich des QLC+-Fensters, im Seitenverhältnis des APC mini mk2
+# (240 x 210 mm): 8 Pad-Spalten + Scene-Spalte, 8 Pad-Reihen + Track-Reihe, Fader füllen den Rest
+PAGE_H = 990
+PAGE_W = round(PAGE_H * 240 / 210)
 FONT = "Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1"
 GAP, X0, Y0, BTN_H, PAD_H = 10, 8, 8, 40, 72
 PAD_W = (PAGE_W - 2 * X0 - 9 * GAP) // 9
