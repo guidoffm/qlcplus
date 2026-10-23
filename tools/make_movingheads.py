@@ -20,6 +20,7 @@ for r, fid in enumerate(ids):
                           f"   <Mode>12 Channel</Mode>\n   <ID>{fid}</ID>{m.group(1)}<Address>{r * CH}</Address>\n"
                           f"   <Channels>{CH}</Channels>\n   <ForcedHTP>10</ForcedHTP>"), s, count=1)
 assert s.count("<Manufacturer>beamZ</Manufacturer>") == 32
+s = re.sub(r'CurrentWindow="\w+"', 'CurrentWindow="VC"', s, count=1)   # beim Öffnen direkt die Pult-Seite zeigen
 s = s.replace('<PluginParameters UniverseChannels="256"/>', '<PluginParameters UniverseChannels="384"/>', 1)
 
 # --- Kanalnummern in Szenen und Fadern umrechnen
@@ -238,10 +239,12 @@ for note, b in mapped.items():
     fb = int(re.search(r'UpperValue="(\d+)"', b["rest"]).group(1))
     b["bg"] = str(0xFF000000 | PALETTE[fb])
 
-# Seite 640 x 640: 8 Pad-Spalten + Scene-Spalte, 8 Pad-Reihen + Track-Reihe, Fader füllen den Rest
-PAGE = 640
-FONT = "Roboto Condensed,8,-1,5,600,0,0,0,0,0,0,0,0,0,0,1"
-PAD_W, PAD_H, GAP, X0, Y0, BTN_H = 63, 40, 6, 8, 8, 28
+# Seite so groß wie der Konsolenbereich des QLC+-Fensters: 8 Pad-Spalten + Scene-Spalte,
+# 8 Pad-Reihen + Track-Reihe, Fader füllen den Rest
+PAGE_W, PAGE_H = 1580, 990
+FONT = "Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1"
+GAP, X0, Y0, BTN_H, PAD_H = 10, 8, 8, 40, 72
+PAD_W = (PAGE_W - 2 * X0 - 9 * GAP) // 9
 next_id = 200
 def new_id():
     global next_id
@@ -302,13 +305,13 @@ TRACK = ["VOLUME", "PAN", "SEND", "DEVICE", "▲", "▼", "◀", "▶"]
 for i, name in enumerate(TRACK):           # untere Reihe, Noten 100-107
     widgets += widget(100 + i, X0 + i * (PAD_W + GAP), yt, PAD_W, BTN_H, name)
 yf = yt + BTN_H + GAP
-FADER_H = PAGE - Y0 - yf
+FADER_H = PAGE_H - Y0 - yf
 for i in range(9):                         # Fader 1-8 und Master (CC 48-56)
     x = X0 + i * (PAD_W + GAP) + (GAP if i == 8 else 0)
     if i in sliders:
         sl = sliders[i]
         widgets += (f'   <Slider Caption="{sl["caption"]}" ID="{sl["id"]}"{sl["attrs"]}>\n'
-                    f'    <WindowState Visible="True" X="{x + 5}" Y="{yf}" Width="{PAD_W - 10}" Height="{FADER_H}"/>\n'
+                    f'    <WindowState Visible="True" X="{x + PAD_W // 4}" Y="{yf}" Width="{PAD_W // 2}" Height="{FADER_H}"/>\n'
                     f'    {appearance("4294967295", sl["bg"])}\n    {sl["rest"]}\n   </Slider>\n')
     else:
         widgets += (f'   <Label Caption="{"MASTER" if i == 8 else i + 1}" ID="{new_id()}">\n'
@@ -317,7 +320,7 @@ for i in range(9):                         # Fader 1-8 und Master (CC 48-56)
 
 page2_end = s.index("  </Frame>\n", page1_end)
 page2 = s[page1_end:page2_end].replace('Caption="Seite 2"', 'Caption="APC"')
-page2 = page2.replace('Width="1920" Height="1080"', f'Width="{PAGE}" Height="{PAGE}"')   # passend zum Inhalt
+page2 = page2.replace('Width="1920" Height="1080"', f'Width="{PAGE_W}" Height="{PAGE_H}"')   # passend zum Inhalt
 s = s[:page1_start] + page2 + widgets + s[page2_end:]
 s = re.sub(r'  <Frame Caption="Seite [34]" ID="\d+">.*?\n  </Frame>\n', "", s, flags=re.S)  # leere Seiten
 print("APC-Seite:", len(mapped), "Tasten,", len(sliders), "Fader")
