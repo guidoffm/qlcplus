@@ -312,8 +312,14 @@ for i in range(9):                         # Fader 1-8 und Master (CC 48-56)
                     f'    <WindowState Visible="True" X="{x}" Y="{yf}" Width="{PAD_W}" Height="250"/>\n'
                     f'    {appearance("4288256409", "4280558628")}\n   </Label>\n')
 
+# Gesamte Seite auf 60 % verkleinern (Positionen, Größen, Schrift)
+SCALE = 0.6
+widgets = re.sub(r'(X|Y|Width|Height)="(\d+)"', lambda m: f'{m.group(1)}="{round(int(m.group(2)) * SCALE)}"', widgets)
+widgets = widgets.replace("Roboto Condensed,11,", "Roboto Condensed,8,")
+
 page2_end = s.index("  </Frame>\n", page1_end)
 page2 = s[page1_end:page2_end].replace('Caption="Seite 2"', 'Caption="APC"')
+page2 = page2.replace('Width="1920" Height="1080"', 'Width="640" Height="640"')   # passend zum Inhalt, ohne Scrollen
 s = s[:page1_start] + page2 + widgets + s[page2_end:]
 s = re.sub(r'  <Frame Caption="Seite [34]" ID="\d+">.*?\n  </Frame>\n', "", s, flags=re.S)  # leere Seiten
 print("APC-Seite:", len(mapped), "Tasten,", len(sliders), "Fader")
