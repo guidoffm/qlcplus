@@ -332,5 +332,32 @@ s = s[:page1_start] + page2 + widgets + s[page2_end:]
 s = re.sub(r'  <Frame Caption="Seite [34]" ID="\d+">.*?\n  </Frame>\n', "", s, flags=re.S)  # leere Seiten
 print("APC-Seite:", len(mapped), "Tasten,", len(sliders), "Fader")
 
+# --- Alles englisch beschriften (Tasten, Fader, Gruppen, Funktionen, Pfade, Geräte)
+EN = {
+    "Lauflicht": "Chase", "Füllen/Leeren": "Fill/Empty", "Polizei": "Police", "Regenbogen": "Rainbow",
+    "Farbüberblendung": "Color Fade", "Feuer": "Fire", "Kreisen": "Orbit", "Jonglieren": "Juggle",
+    "Wellen": "Waves", "Gegenlauf": "Opposite", "Traversen-Wechsel": "Truss Swap", "Mitte füllen": "Center Fill",
+    "Streifen": "Stripes", "Zufall": "Random", "Konfetti": "Confetti", "Funkeln": "Twinkle", "Ozean": "Ocean",
+    "Gewitter": "Thunderstorm", "Mitte": "Center", "Rand": "Edge", "Kreuz": "Cross", "Publikum": "Audience",
+    "Kreis": "Circle", "Kreiswelle": "Circle Wave", "Acht": "Figure 8", "Schwenk": "Pan Sweep",
+    "Welle": "Tilt Wave", "Raute": "Diamond", "Blatt": "Leaf", "Rot": "Red", "Grün": "Green", "Blau": "Blue",
+    "Weiß": "White", "Farben": "Colors", "Positionen": "Positions", "Effekte": "Effects", "Bewegung": "Movement",
+    "Bühne": "Stage", "Traversen": "Trusses", "Vorne": "Front", "Rechts": "Right", "Hinten": "Rear",
+    "Links": "Left", "Seite 1": "Page 1",
+}
+def en(text):
+    if text in EN:
+        return EN[text]
+    m = re.fullmatch(r"(.*?) (\d+)", text)                 # "Vorne 3" -> "Front 3"
+    if m and m.group(1) in EN:
+        return f"{EN[m.group(1)]} {m.group(2)}"
+    if " – " in text:                                     # "Bühne – Kreisen" -> "Stage – Orbit"
+        return " – ".join(en(part) for part in text.split(" – "))
+    if "/" in text and text not in EN:                    # Pfade "Effekte/Bühne"
+        return "/".join(en(part) for part in text.split("/"))
+    return text.replace("Auto-Show", "Auto Show")
+s = re.sub(r'(Caption|Name|Path)="([^"]*)"', lambda m: f'{m.group(1)}="{en(m.group(2))}"', s)
+s = re.sub(r"<Name>([^<]*)</Name>", lambda m: f"<Name>{en(m.group(1))}</Name>", s)
+s = s.replace("Bewegung – ", "Movement – ").replace('Path="Moving Heads/Movement"', 'Path="Moving Heads/Movement"')
 open(dst, "w", encoding="utf-8").write(s)
 print("ok:", len(POSITIONS), "Positionen,", len(MOVES), "Bewegungen,", len(coll_ids), "Auto-Shows")

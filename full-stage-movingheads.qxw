@@ -32,7 +32,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>0</ID>
-   <Name>Vorne 1</Name>
+   <Name>Front 1</Name>
    <Universe>0</Universe>
    <Address>0</Address>
    <Channels>12</Channels>
@@ -43,7 +43,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>1</ID>
-   <Name>Vorne 2</Name>
+   <Name>Front 2</Name>
    <Universe>0</Universe>
    <Address>12</Address>
    <Channels>12</Channels>
@@ -74,7 +74,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>4</ID>
-   <Name>Vorne 3</Name>
+   <Name>Front 3</Name>
    <Universe>0</Universe>
    <Address>24</Address>
    <Channels>12</Channels>
@@ -85,7 +85,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>5</ID>
-   <Name>Vorne 4</Name>
+   <Name>Front 4</Name>
    <Universe>0</Universe>
    <Address>36</Address>
    <Channels>12</Channels>
@@ -96,7 +96,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>6</ID>
-   <Name>Vorne 5</Name>
+   <Name>Front 5</Name>
    <Universe>0</Universe>
    <Address>48</Address>
    <Channels>12</Channels>
@@ -107,7 +107,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>7</ID>
-   <Name>Vorne 6</Name>
+   <Name>Front 6</Name>
    <Universe>0</Universe>
    <Address>60</Address>
    <Channels>12</Channels>
@@ -118,7 +118,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>8</ID>
-   <Name>Vorne 7</Name>
+   <Name>Front 7</Name>
    <Universe>0</Universe>
    <Address>72</Address>
    <Channels>12</Channels>
@@ -129,7 +129,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>9</ID>
-   <Name>Vorne 8</Name>
+   <Name>Front 8</Name>
    <Universe>0</Universe>
    <Address>84</Address>
    <Channels>12</Channels>
@@ -140,7 +140,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>10</ID>
-   <Name>Rechts 1</Name>
+   <Name>Right 1</Name>
    <Universe>0</Universe>
    <Address>96</Address>
    <Channels>12</Channels>
@@ -151,7 +151,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>11</ID>
-   <Name>Rechts 2</Name>
+   <Name>Right 2</Name>
    <Universe>0</Universe>
    <Address>108</Address>
    <Channels>12</Channels>
@@ -162,7 +162,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>12</ID>
-   <Name>Rechts 3</Name>
+   <Name>Right 3</Name>
    <Universe>0</Universe>
    <Address>120</Address>
    <Channels>12</Channels>
@@ -173,7 +173,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>13</ID>
-   <Name>Rechts 4</Name>
+   <Name>Right 4</Name>
    <Universe>0</Universe>
    <Address>132</Address>
    <Channels>12</Channels>
@@ -184,7 +184,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>14</ID>
-   <Name>Rechts 5</Name>
+   <Name>Right 5</Name>
    <Universe>0</Universe>
    <Address>144</Address>
    <Channels>12</Channels>
@@ -195,7 +195,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>15</ID>
-   <Name>Rechts 6</Name>
+   <Name>Right 6</Name>
    <Universe>0</Universe>
    <Address>156</Address>
    <Channels>12</Channels>
@@ -206,7 +206,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>16</ID>
-   <Name>Rechts 7</Name>
+   <Name>Right 7</Name>
    <Universe>0</Universe>
    <Address>168</Address>
    <Channels>12</Channels>
@@ -217,7 +217,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>17</ID>
-   <Name>Rechts 8</Name>
+   <Name>Right 8</Name>
    <Universe>0</Universe>
    <Address>180</Address>
    <Channels>12</Channels>
@@ -228,7 +228,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>18</ID>
-   <Name>Hinten 1</Name>
+   <Name>Rear 1</Name>
    <Universe>0</Universe>
    <Address>192</Address>
    <Channels>12</Channels>
@@ -239,7 +239,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>19</ID>
-   <Name>Hinten 2</Name>
+   <Name>Rear 2</Name>
    <Universe>0</Universe>
    <Address>204</Address>
    <Channels>12</Channels>
@@ -250,7 +250,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>20</ID>
-   <Name>Hinten 3</Name>
+   <Name>Rear 3</Name>
    <Universe>0</Universe>
    <Address>216</Address>
    <Channels>12</Channels>
@@ -261,7 +261,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>21</ID>
-   <Name>Hinten 4</Name>
+   <Name>Rear 4</Name>
    <Universe>0</Universe>
    <Address>228</Address>
    <Channels>12</Channels>
@@ -272,7 +272,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>22</ID>
-   <Name>Hinten 5</Name>
+   <Name>Rear 5</Name>
    <Universe>0</Universe>
    <Address>240</Address>
    <Channels>12</Channels>
@@ -283,7 +283,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>23</ID>
-   <Name>Hinten 6</Name>
+   <Name>Rear 6</Name>
    <Universe>0</Universe>
    <Address>252</Address>
    <Channels>12</Channels>
@@ -294,7 +294,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>24</ID>
-   <Name>Hinten 7</Name>
+   <Name>Rear 7</Name>
    <Universe>0</Universe>
    <Address>264</Address>
    <Channels>12</Channels>
@@ -305,7 +305,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>25</ID>
-   <Name>Hinten 8</Name>
+   <Name>Rear 8</Name>
    <Universe>0</Universe>
    <Address>276</Address>
    <Channels>12</Channels>
@@ -316,7 +316,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>26</ID>
-   <Name>Links 1</Name>
+   <Name>Left 1</Name>
    <Universe>0</Universe>
    <Address>288</Address>
    <Channels>12</Channels>
@@ -327,7 +327,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>27</ID>
-   <Name>Links 2</Name>
+   <Name>Left 2</Name>
    <Universe>0</Universe>
    <Address>300</Address>
    <Channels>12</Channels>
@@ -338,7 +338,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>28</ID>
-   <Name>Links 3</Name>
+   <Name>Left 3</Name>
    <Universe>0</Universe>
    <Address>312</Address>
    <Channels>12</Channels>
@@ -349,7 +349,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>29</ID>
-   <Name>Links 4</Name>
+   <Name>Left 4</Name>
    <Universe>0</Universe>
    <Address>324</Address>
    <Channels>12</Channels>
@@ -360,7 +360,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>30</ID>
-   <Name>Links 5</Name>
+   <Name>Left 5</Name>
    <Universe>0</Universe>
    <Address>336</Address>
    <Channels>12</Channels>
@@ -371,7 +371,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>31</ID>
-   <Name>Links 6</Name>
+   <Name>Left 6</Name>
    <Universe>0</Universe>
    <Address>348</Address>
    <Channels>12</Channels>
@@ -382,7 +382,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>32</ID>
-   <Name>Links 7</Name>
+   <Name>Left 7</Name>
    <Universe>0</Universe>
    <Address>360</Address>
    <Channels>12</Channels>
@@ -393,7 +393,7 @@
    <Model>MHL-74 Wash 7x10W 4in1 RGBW</Model>
    <Mode>12 Channel</Mode>
    <ID>33</ID>
-   <Name>Links 8</Name>
+   <Name>Left 8</Name>
    <Universe>0</Universe>
    <Address>372</Address>
    <Channels>12</Channels>
@@ -508,7 +508,7 @@
    <Head X="31" Y="0" Fixture="33">0</Head>
   </FixtureGroup>
   <FixtureGroup ID="3">
-   <Name>Traversen</Name>
+   <Name>Trusses</Name>
    <Size X="8" Y="4"/>
    <Head X="0" Y="0" Fixture="0">0</Head>
    <Head X="1" Y="0" Fixture="1">0</Head>
@@ -1558,7 +1558,7 @@
    <FixtureVal ID="32">10,250</FixtureVal>
    <FixtureVal ID="33">10,250</FixtureVal>
   </Function>
-  <Function ID="59" Type="RGBMatrix" Name="Spots – Lauflicht" Path="Effekte">
+  <Function ID="59" Type="RGBMatrix" Name="Spots – Chase" Path="Effects">
    <Tempo>Beats</Tempo>
    <Speed FadeIn="0" FadeOut="0" Duration="500"/>
    <Direction>Forward</Direction>
@@ -1568,7 +1568,7 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>2</FixtureGroup>
   </Function>
-  <Function ID="60" Type="RGBMatrix" Name="Spots – Ping-Pong" Path="Effekte">
+  <Function ID="60" Type="RGBMatrix" Name="Spots – Ping-Pong" Path="Effects">
    <Tempo>Beats</Tempo>
    <Speed FadeIn="0" FadeOut="0" Duration="500"/>
    <Direction>Forward</Direction>
@@ -1578,7 +1578,7 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>2</FixtureGroup>
   </Function>
-  <Function ID="61" Type="RGBMatrix" Name="Spots – Füllen/Leeren" Path="Effekte">
+  <Function ID="61" Type="RGBMatrix" Name="Spots – Fill/Empty" Path="Effects">
    <Tempo>Beats</Tempo>
    <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
    <Direction>Forward</Direction>
@@ -1588,7 +1588,7 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>0</FixtureGroup>
   </Function>
-  <Function ID="62" Type="RGBMatrix" Name="Spots – Polizei" Path="Effekte">
+  <Function ID="62" Type="RGBMatrix" Name="Spots – Police" Path="Effects">
    <Tempo>Beats</Tempo>
    <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
    <Direction>Forward</Direction>
@@ -1599,7 +1599,7 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>2</FixtureGroup>
   </Function>
-  <Function ID="63" Type="RGBMatrix" Name="Spots – Regenbogen" Path="Effekte">
+  <Function ID="63" Type="RGBMatrix" Name="Spots – Rainbow" Path="Effects">
    <Tempo>Beats</Tempo>
    <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
    <Direction>Forward</Direction>
@@ -1609,7 +1609,7 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>2</FixtureGroup>
   </Function>
-  <Function ID="64" Type="RGBMatrix" Name="Spots – Plasma" Path="Effekte">
+  <Function ID="64" Type="RGBMatrix" Name="Spots – Plasma" Path="Effects">
    <Speed FadeIn="0" FadeOut="0" Duration="60"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1622,7 +1622,7 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>0</FixtureGroup>
   </Function>
-  <Function ID="65" Type="Chaser" Name="Spots – Farbüberblendung" Path="Effekte">
+  <Function ID="65" Type="Chaser" Name="Spots – Color Fade" Path="Effects">
    <Tempo>Beats</Tempo>
    <Speed FadeIn="2000" FadeOut="0" Duration="4000"/>
    <Direction>Forward</Direction>
@@ -1636,7 +1636,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">17</Step>
    <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">18</Step>
   </Function>
-  <Function ID="66" Type="RGBMatrix" Name="Spots – Feuer" Path="Effekte">
+  <Function ID="66" Type="RGBMatrix" Name="Spots – Fire" Path="Effects">
    <Speed FadeIn="0" FadeOut="0" Duration="80"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1647,7 +1647,7 @@
    <Property Name="flareOnStart" Value="No"/>
    <Property Name="flickerAmt" Value="70"/>
   </Function>
-  <Function ID="67" Type="Chaser" Name="Auto – 4 s" Path="Effekte/Auto">
+  <Function ID="67" Type="Chaser" Name="Auto – 4 s" Path="Effects/Auto">
    <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1677,7 +1677,7 @@
    <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">123</Step>
    <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">124</Step>
   </Function>
-  <Function ID="68" Type="Chaser" Name="Auto – 8 s" Path="Effekte/Auto">
+  <Function ID="68" Type="Chaser" Name="Auto – 8 s" Path="Effects/Auto">
    <Speed FadeIn="0" FadeOut="0" Duration="8000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1707,7 +1707,7 @@
    <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">123</Step>
    <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">124</Step>
   </Function>
-  <Function ID="69" Type="Chaser" Name="Auto – 16 s" Path="Effekte/Auto">
+  <Function ID="69" Type="Chaser" Name="Auto – 16 s" Path="Effects/Auto">
    <Speed FadeIn="0" FadeOut="0" Duration="16000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1737,7 +1737,7 @@
    <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">123</Step>
    <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">124</Step>
   </Function>
-  <Function ID="70" Type="Chaser" Name="Auto – 32 s" Path="Effekte/Auto">
+  <Function ID="70" Type="Chaser" Name="Auto – 32 s" Path="Effects/Auto">
    <Speed FadeIn="0" FadeOut="0" Duration="32000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1767,7 +1767,7 @@
    <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">123</Step>
    <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">124</Step>
   </Function>
-  <Function ID="71" Type="Chaser" Name="Auto – 64 s" Path="Effekte/Auto">
+  <Function ID="71" Type="Chaser" Name="Auto – 64 s" Path="Effects/Auto">
    <Speed FadeIn="0" FadeOut="0" Duration="64000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1797,7 +1797,7 @@
    <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">123</Step>
    <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">124</Step>
   </Function>
-  <Function ID="72" Type="Chaser" Name="Auto – 128 s" Path="Effekte/Auto">
+  <Function ID="72" Type="Chaser" Name="Auto – 128 s" Path="Effects/Auto">
    <Speed FadeIn="0" FadeOut="0" Duration="128000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1827,7 +1827,7 @@
    <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">123</Step>
    <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">124</Step>
   </Function>
-  <Function ID="73" Type="RGBMatrix" Name="Bühne – Radar" Path="Effekte/Bühne">
+  <Function ID="73" Type="RGBMatrix" Name="Stage – Radar" Path="Effects/Stage">
    <Speed FadeIn="0" FadeOut="0" Duration="40"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1839,7 +1839,7 @@
    <Property Name="width" Value="60"/>
    <Property Name="fadeMode" Value="Fade Right"/>
   </Function>
-  <Function ID="74" Type="RGBMatrix" Name="Bühne – Ripple" Path="Effekte/Bühne">
+  <Function ID="74" Type="RGBMatrix" Name="Stage – Ripple" Path="Effects/Stage">
    <Speed FadeIn="0" FadeOut="0" Duration="50"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1848,7 +1848,7 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>0</FixtureGroup>
   </Function>
-  <Function ID="75" Type="RGBMatrix" Name="Bühne – Kreisen" Path="Effekte/Bühne">
+  <Function ID="75" Type="RGBMatrix" Name="Stage – Orbit" Path="Effects/Stage">
    <Speed FadeIn="0" FadeOut="0" Duration="30"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1857,7 +1857,7 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>2</FixtureGroup>
   </Function>
-  <Function ID="76" Type="RGBMatrix" Name="Bühne – Meteor" Path="Effekte/Bühne">
+  <Function ID="76" Type="RGBMatrix" Name="Stage – Meteor" Path="Effects/Stage">
    <Speed FadeIn="0" FadeOut="0" Duration="40"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1866,7 +1866,7 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>2</FixtureGroup>
   </Function>
-  <Function ID="77" Type="RGBMatrix" Name="Bühne – Jonglieren" Path="Effekte/Bühne">
+  <Function ID="77" Type="RGBMatrix" Name="Stage – Juggle" Path="Effects/Stage">
    <Speed FadeIn="0" FadeOut="0" Duration="30"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1875,7 +1875,7 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>2</FixtureGroup>
   </Function>
-  <Function ID="78" Type="RGBMatrix" Name="Bühne – Wellen" Path="Effekte/Bühne">
+  <Function ID="78" Type="RGBMatrix" Name="Stage – Waves" Path="Effects/Stage">
    <Tempo>Beats</Tempo>
    <Speed FadeIn="0" FadeOut="0" Duration="250"/>
    <Direction>Forward</Direction>
@@ -1886,7 +1886,7 @@
    <FixtureGroup>0</FixtureGroup>
    <Property Name="direction" Value="Out"/>
   </Function>
-  <Function ID="79" Type="RGBMatrix" Name="Bühne – Gegenlauf" Path="Effekte/Bühne">
+  <Function ID="79" Type="RGBMatrix" Name="Stage – Opposite" Path="Effects/Stage">
    <Tempo>Beats</Tempo>
    <Speed FadeIn="0" FadeOut="0" Duration="500"/>
    <Direction>Forward</Direction>
@@ -1896,7 +1896,7 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>3</FixtureGroup>
   </Function>
-  <Function ID="80" Type="RGBMatrix" Name="Bühne – Traversen-Wechsel" Path="Effekte/Bühne">
+  <Function ID="80" Type="RGBMatrix" Name="Stage – Truss Swap" Path="Effects/Stage">
    <Tempo>Beats</Tempo>
    <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
    <Direction>Forward</Direction>
@@ -1906,7 +1906,7 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>3</FixtureGroup>
   </Function>
-  <Function ID="81" Type="RGBMatrix" Name="Bühne – Mitte füllen" Path="Effekte/Bühne">
+  <Function ID="81" Type="RGBMatrix" Name="Stage – Center Fill" Path="Effects/Stage">
    <Tempo>Beats</Tempo>
    <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
    <Direction>Forward</Direction>
@@ -1916,7 +1916,7 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>0</FixtureGroup>
   </Function>
-  <Function ID="82" Type="RGBMatrix" Name="Bühne – Streifen" Path="Effekte/Bühne">
+  <Function ID="82" Type="RGBMatrix" Name="Stage – Stripes" Path="Effects/Stage">
    <Tempo>Beats</Tempo>
    <Speed FadeIn="0" FadeOut="0" Duration="500"/>
    <Direction>Forward</Direction>
@@ -1926,7 +1926,7 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>3</FixtureGroup>
   </Function>
-  <Function ID="83" Type="RGBMatrix" Name="Bühne – Zufall" Path="Effekte/Bühne">
+  <Function ID="83" Type="RGBMatrix" Name="Stage – Random" Path="Effects/Stage">
    <Tempo>Beats</Tempo>
    <Speed FadeIn="0" FadeOut="0" Duration="500"/>
    <Direction>Forward</Direction>
@@ -1936,7 +1936,7 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>2</FixtureGroup>
   </Function>
-  <Function ID="84" Type="RGBMatrix" Name="Bühne – Konfetti" Path="Effekte/Bühne">
+  <Function ID="84" Type="RGBMatrix" Name="Stage – Confetti" Path="Effects/Stage">
    <Speed FadeIn="0" FadeOut="0" Duration="50"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1947,7 +1947,7 @@
    <Property Name="density" Value="100"/>
    <Property Name="fade" Value="50"/>
   </Function>
-  <Function ID="85" Type="RGBMatrix" Name="Bühne – Funkeln" Path="Effekte/Bühne">
+  <Function ID="85" Type="RGBMatrix" Name="Stage – Twinkle" Path="Effects/Stage">
    <Speed FadeIn="0" FadeOut="0" Duration="40"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1955,7 +1955,7 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>0</FixtureGroup>
   </Function>
-  <Function ID="86" Type="RGBMatrix" Name="Bühne – Aurora" Path="Effekte/Bühne">
+  <Function ID="86" Type="RGBMatrix" Name="Stage – Aurora" Path="Effects/Stage">
    <Speed FadeIn="0" FadeOut="0" Duration="50"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1963,7 +1963,7 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>0</FixtureGroup>
   </Function>
-  <Function ID="87" Type="RGBMatrix" Name="Bühne – Ozean" Path="Effekte/Bühne">
+  <Function ID="87" Type="RGBMatrix" Name="Stage – Ocean" Path="Effects/Stage">
    <Speed FadeIn="0" FadeOut="0" Duration="50"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1971,7 +1971,7 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>0</FixtureGroup>
   </Function>
-  <Function ID="88" Type="RGBMatrix" Name="Bühne – Gewitter" Path="Effekte/Bühne">
+  <Function ID="88" Type="RGBMatrix" Name="Stage – Thunderstorm" Path="Effects/Stage">
    <Speed FadeIn="0" FadeOut="0" Duration="30"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1980,7 +1980,7 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>0</FixtureGroup>
   </Function>
-  <Function ID="89" Type="Scene" Name="Position – Mitte" Path="Moving Heads/Position">
+  <Function ID="89" Type="Scene" Name="Position – Center" Path="Moving Heads/Position">
    <Speed FadeIn="1000" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,66,1,151,2,198,3,225</FixtureVal>
    <FixtureVal ID="1">0,70,1,221,2,194,3,103</FixtureVal>
@@ -2015,7 +2015,7 @@
    <FixtureVal ID="32">0,57,1,35,2,194,3,103</FixtureVal>
    <FixtureVal ID="33">0,61,1,105,2,198,3,225</FixtureVal>
   </Function>
-  <Function ID="90" Type="Scene" Name="Position – Rand" Path="Moving Heads/Position">
+  <Function ID="90" Type="Scene" Name="Position – Edge" Path="Moving Heads/Position">
    <Speed FadeIn="1000" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,85,1,85,2,142,3,57</FixtureVal>
    <FixtureVal ID="1">0,85,1,85,2,142,3,57</FixtureVal>
@@ -2050,7 +2050,7 @@
    <FixtureVal ID="32">0,213,1,84,2,142,3,57</FixtureVal>
    <FixtureVal ID="33">0,213,1,84,2,142,3,57</FixtureVal>
   </Function>
-  <Function ID="91" Type="Scene" Name="Position – Kreuz" Path="Moving Heads/Position">
+  <Function ID="91" Type="Scene" Name="Position – Cross" Path="Moving Heads/Position">
    <Speed FadeIn="1000" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,85,1,85,2,188,3,85</FixtureVal>
    <FixtureVal ID="1">0,85,1,85,2,188,3,85</FixtureVal>
@@ -2085,7 +2085,7 @@
    <FixtureVal ID="32">0,213,1,84,2,188,3,85</FixtureVal>
    <FixtureVal ID="33">0,213,1,84,2,188,3,85</FixtureVal>
   </Function>
-  <Function ID="92" Type="Scene" Name="Position – Publikum" Path="Moving Heads/Position">
+  <Function ID="92" Type="Scene" Name="Position – Audience" Path="Moving Heads/Position">
    <Speed FadeIn="1000" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,160,1,134,2,225,3,195</FixtureVal>
    <FixtureVal ID="1">0,163,1,65,2,224,3,210</FixtureVal>
@@ -2120,7 +2120,7 @@
    <FixtureVal ID="32">0,161,1,82,2,232,3,121</FixtureVal>
    <FixtureVal ID="33">0,159,1,239,2,229,3,95</FixtureVal>
   </Function>
-  <Function ID="93" Type="EFX" Name="Bewegung – Kreis" Path="Moving Heads/Bewegung">
+  <Function ID="93" Type="EFX" Name="Movement – Circle" Path="Moving Heads/Movement">
    <Fixture>
     <ID>0</ID>
     <Head>0</Head>
@@ -2367,7 +2367,7 @@
     <Phase>0</Phase>
    </Axis>
   </Function>
-  <Function ID="94" Type="EFX" Name="Bewegung – Kreiswelle" Path="Moving Heads/Bewegung">
+  <Function ID="94" Type="EFX" Name="Movement – Circle Wave" Path="Moving Heads/Movement">
    <Fixture>
     <ID>0</ID>
     <Head>0</Head>
@@ -2614,7 +2614,7 @@
     <Phase>0</Phase>
    </Axis>
   </Function>
-  <Function ID="95" Type="EFX" Name="Bewegung – Acht" Path="Moving Heads/Bewegung">
+  <Function ID="95" Type="EFX" Name="Movement – Figure 8" Path="Moving Heads/Movement">
    <Fixture>
     <ID>0</ID>
     <Head>0</Head>
@@ -2861,7 +2861,7 @@
     <Phase>0</Phase>
    </Axis>
   </Function>
-  <Function ID="96" Type="EFX" Name="Bewegung – Schwenk" Path="Moving Heads/Bewegung">
+  <Function ID="96" Type="EFX" Name="Movement – Pan Sweep" Path="Moving Heads/Movement">
    <Fixture>
     <ID>0</ID>
     <Head>0</Head>
@@ -3108,7 +3108,7 @@
     <Phase>0</Phase>
    </Axis>
   </Function>
-  <Function ID="97" Type="EFX" Name="Bewegung – Welle" Path="Moving Heads/Bewegung">
+  <Function ID="97" Type="EFX" Name="Movement – Tilt Wave" Path="Moving Heads/Movement">
    <Fixture>
     <ID>0</ID>
     <Head>0</Head>
@@ -3355,7 +3355,7 @@
     <Phase>0</Phase>
    </Axis>
   </Function>
-  <Function ID="98" Type="EFX" Name="Bewegung – Lissajous" Path="Moving Heads/Bewegung">
+  <Function ID="98" Type="EFX" Name="Movement – Lissajous" Path="Moving Heads/Movement">
    <Fixture>
     <ID>0</ID>
     <Head>0</Head>
@@ -3602,7 +3602,7 @@
     <Phase>0</Phase>
    </Axis>
   </Function>
-  <Function ID="99" Type="EFX" Name="Bewegung – Raute" Path="Moving Heads/Bewegung">
+  <Function ID="99" Type="EFX" Name="Movement – Diamond" Path="Moving Heads/Movement">
    <Fixture>
     <ID>0</ID>
     <Head>0</Head>
@@ -3849,7 +3849,7 @@
     <Phase>0</Phase>
    </Axis>
   </Function>
-  <Function ID="100" Type="EFX" Name="Bewegung – Blatt" Path="Moving Heads/Bewegung">
+  <Function ID="100" Type="EFX" Name="Movement – Leaf" Path="Moving Heads/Movement">
    <Fixture>
     <ID>0</ID>
     <Head>0</Head>
@@ -4096,122 +4096,122 @@
     <Phase>0</Phase>
    </Axis>
   </Function>
-  <Function ID="101" Type="Collection" Name="Auto-Show 1" Path="Moving Heads/Auto">
+  <Function ID="101" Type="Collection" Name="Auto Show 1" Path="Moving Heads/Auto">
    <Step Number="0">59</Step>
    <Step Number="1">93</Step>
    <Step Number="2">89</Step>
   </Function>
-  <Function ID="102" Type="Collection" Name="Auto-Show 2" Path="Moving Heads/Auto">
+  <Function ID="102" Type="Collection" Name="Auto Show 2" Path="Moving Heads/Auto">
    <Step Number="0">60</Step>
    <Step Number="1">94</Step>
    <Step Number="2">89</Step>
   </Function>
-  <Function ID="103" Type="Collection" Name="Auto-Show 3" Path="Moving Heads/Auto">
+  <Function ID="103" Type="Collection" Name="Auto Show 3" Path="Moving Heads/Auto">
    <Step Number="0">61</Step>
    <Step Number="1">95</Step>
    <Step Number="2">90</Step>
   </Function>
-  <Function ID="104" Type="Collection" Name="Auto-Show 4" Path="Moving Heads/Auto">
+  <Function ID="104" Type="Collection" Name="Auto Show 4" Path="Moving Heads/Auto">
    <Step Number="0">62</Step>
    <Step Number="1">96</Step>
    <Step Number="2">90</Step>
   </Function>
-  <Function ID="105" Type="Collection" Name="Auto-Show 5" Path="Moving Heads/Auto">
+  <Function ID="105" Type="Collection" Name="Auto Show 5" Path="Moving Heads/Auto">
    <Step Number="0">63</Step>
    <Step Number="1">97</Step>
    <Step Number="2">91</Step>
   </Function>
-  <Function ID="106" Type="Collection" Name="Auto-Show 6" Path="Moving Heads/Auto">
+  <Function ID="106" Type="Collection" Name="Auto Show 6" Path="Moving Heads/Auto">
    <Step Number="0">64</Step>
    <Step Number="1">98</Step>
    <Step Number="2">91</Step>
   </Function>
-  <Function ID="107" Type="Collection" Name="Auto-Show 7" Path="Moving Heads/Auto">
+  <Function ID="107" Type="Collection" Name="Auto Show 7" Path="Moving Heads/Auto">
    <Step Number="0">65</Step>
    <Step Number="1">99</Step>
    <Step Number="2">92</Step>
   </Function>
-  <Function ID="108" Type="Collection" Name="Auto-Show 8" Path="Moving Heads/Auto">
+  <Function ID="108" Type="Collection" Name="Auto Show 8" Path="Moving Heads/Auto">
    <Step Number="0">66</Step>
    <Step Number="1">100</Step>
    <Step Number="2">92</Step>
   </Function>
-  <Function ID="109" Type="Collection" Name="Auto-Show 9" Path="Moving Heads/Auto">
+  <Function ID="109" Type="Collection" Name="Auto Show 9" Path="Moving Heads/Auto">
    <Step Number="0">73</Step>
    <Step Number="1">93</Step>
    <Step Number="2">89</Step>
   </Function>
-  <Function ID="110" Type="Collection" Name="Auto-Show 10" Path="Moving Heads/Auto">
+  <Function ID="110" Type="Collection" Name="Auto Show 10" Path="Moving Heads/Auto">
    <Step Number="0">74</Step>
    <Step Number="1">94</Step>
    <Step Number="2">89</Step>
   </Function>
-  <Function ID="111" Type="Collection" Name="Auto-Show 11" Path="Moving Heads/Auto">
+  <Function ID="111" Type="Collection" Name="Auto Show 11" Path="Moving Heads/Auto">
    <Step Number="0">75</Step>
    <Step Number="1">95</Step>
    <Step Number="2">90</Step>
   </Function>
-  <Function ID="112" Type="Collection" Name="Auto-Show 12" Path="Moving Heads/Auto">
+  <Function ID="112" Type="Collection" Name="Auto Show 12" Path="Moving Heads/Auto">
    <Step Number="0">76</Step>
    <Step Number="1">96</Step>
    <Step Number="2">90</Step>
   </Function>
-  <Function ID="113" Type="Collection" Name="Auto-Show 13" Path="Moving Heads/Auto">
+  <Function ID="113" Type="Collection" Name="Auto Show 13" Path="Moving Heads/Auto">
    <Step Number="0">77</Step>
    <Step Number="1">97</Step>
    <Step Number="2">91</Step>
   </Function>
-  <Function ID="114" Type="Collection" Name="Auto-Show 14" Path="Moving Heads/Auto">
+  <Function ID="114" Type="Collection" Name="Auto Show 14" Path="Moving Heads/Auto">
    <Step Number="0">78</Step>
    <Step Number="1">98</Step>
    <Step Number="2">91</Step>
   </Function>
-  <Function ID="115" Type="Collection" Name="Auto-Show 15" Path="Moving Heads/Auto">
+  <Function ID="115" Type="Collection" Name="Auto Show 15" Path="Moving Heads/Auto">
    <Step Number="0">79</Step>
    <Step Number="1">99</Step>
    <Step Number="2">92</Step>
   </Function>
-  <Function ID="116" Type="Collection" Name="Auto-Show 16" Path="Moving Heads/Auto">
+  <Function ID="116" Type="Collection" Name="Auto Show 16" Path="Moving Heads/Auto">
    <Step Number="0">80</Step>
    <Step Number="1">100</Step>
    <Step Number="2">92</Step>
   </Function>
-  <Function ID="117" Type="Collection" Name="Auto-Show 17" Path="Moving Heads/Auto">
+  <Function ID="117" Type="Collection" Name="Auto Show 17" Path="Moving Heads/Auto">
    <Step Number="0">81</Step>
    <Step Number="1">93</Step>
    <Step Number="2">89</Step>
   </Function>
-  <Function ID="118" Type="Collection" Name="Auto-Show 18" Path="Moving Heads/Auto">
+  <Function ID="118" Type="Collection" Name="Auto Show 18" Path="Moving Heads/Auto">
    <Step Number="0">82</Step>
    <Step Number="1">94</Step>
    <Step Number="2">89</Step>
   </Function>
-  <Function ID="119" Type="Collection" Name="Auto-Show 19" Path="Moving Heads/Auto">
+  <Function ID="119" Type="Collection" Name="Auto Show 19" Path="Moving Heads/Auto">
    <Step Number="0">83</Step>
    <Step Number="1">95</Step>
    <Step Number="2">90</Step>
   </Function>
-  <Function ID="120" Type="Collection" Name="Auto-Show 20" Path="Moving Heads/Auto">
+  <Function ID="120" Type="Collection" Name="Auto Show 20" Path="Moving Heads/Auto">
    <Step Number="0">84</Step>
    <Step Number="1">96</Step>
    <Step Number="2">90</Step>
   </Function>
-  <Function ID="121" Type="Collection" Name="Auto-Show 21" Path="Moving Heads/Auto">
+  <Function ID="121" Type="Collection" Name="Auto Show 21" Path="Moving Heads/Auto">
    <Step Number="0">85</Step>
    <Step Number="1">97</Step>
    <Step Number="2">91</Step>
   </Function>
-  <Function ID="122" Type="Collection" Name="Auto-Show 22" Path="Moving Heads/Auto">
+  <Function ID="122" Type="Collection" Name="Auto Show 22" Path="Moving Heads/Auto">
    <Step Number="0">86</Step>
    <Step Number="1">98</Step>
    <Step Number="2">91</Step>
   </Function>
-  <Function ID="123" Type="Collection" Name="Auto-Show 23" Path="Moving Heads/Auto">
+  <Function ID="123" Type="Collection" Name="Auto Show 23" Path="Moving Heads/Auto">
    <Step Number="0">87</Step>
    <Step Number="1">99</Step>
    <Step Number="2">92</Step>
   </Function>
-  <Function ID="124" Type="Collection" Name="Auto-Show 24" Path="Moving Heads/Auto">
+  <Function ID="124" Type="Collection" Name="Auto Show 24" Path="Moving Heads/Auto">
    <Step Number="0">88</Step>
    <Step Number="1">100</Step>
    <Step Number="2">92</Step>
@@ -4269,7 +4269,7 @@
    <ShowEnableButton>True</ShowEnableButton>
    <Collapsed>False</Collapsed>
    <Disabled>False</Disabled>
-   <SoloFrame Caption="Farben" ID="202">
+   <SoloFrame Caption="Colors" ID="202">
     <WindowState Visible="True" X="6" Y="6" Width="855" Height="158"/>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -4428,14 +4428,14 @@
     </Appearance>
     </Label>
    </SoloFrame>
-   <SoloFrame Caption="Positionen" ID="203">
+   <SoloFrame Caption="Positions" ID="203">
     <WindowState Visible="True" X="6" Y="170" Width="486" Height="76"/>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Button Caption="Mitte" ID="75">
+    <Button Caption="Center" ID="75">
     <WindowState Visible="True" X="2" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4446,7 +4446,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="168" LowerValue="6" UpperValue="6" MonitorValue="6" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
-    <Button Caption="Rand" ID="76">
+    <Button Caption="Edge" ID="76">
     <WindowState Visible="True" X="125" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4457,7 +4457,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="169" LowerValue="114" UpperValue="114" MonitorValue="114" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
-    <Button Caption="Kreuz" ID="77">
+    <Button Caption="Cross" ID="77">
     <WindowState Visible="True" X="248" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4468,7 +4468,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="170" LowerValue="98" UpperValue="98" MonitorValue="98" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
-    <Button Caption="Publikum" ID="78">
+    <Button Caption="Audience" ID="78">
     <WindowState Visible="True" X="371" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4480,14 +4480,14 @@
      <Input ID="0" Universe="0" Channel="171" LowerValue="180" UpperValue="180" MonitorValue="180" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
    </SoloFrame>
-   <SoloFrame Caption="Effekte" ID="204">
+   <SoloFrame Caption="Effects" ID="204">
     <WindowState Visible="True" X="6" Y="252" Width="978" Height="240"/>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Button Caption="Lauflicht" ID="43">
+    <Button Caption="Chase" ID="43">
     <WindowState Visible="True" X="2" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4509,7 +4509,7 @@
       <Action>Toggle</Action>
       <Input ID="0" Universe="0" Channel="161" LowerValue="18" UpperValue="18" MonitorValue="18" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Füllen/Leeren" ID="45">
+    <Button Caption="Fill/Empty" ID="45">
     <WindowState Visible="True" X="248" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4520,7 +4520,7 @@
       <Action>Toggle</Action>
       <Input ID="0" Universe="0" Channel="162" LowerValue="26" UpperValue="26" MonitorValue="26" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Polizei" ID="46">
+    <Button Caption="Police" ID="46">
     <WindowState Visible="True" X="371" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4531,7 +4531,7 @@
       <Action>Toggle</Action>
       <Input ID="0" Universe="0" Channel="163" LowerValue="42" UpperValue="42" MonitorValue="42" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Regenbogen" ID="47">
+    <Button Caption="Rainbow" ID="47">
     <WindowState Visible="True" X="494" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4553,7 +4553,7 @@
       <Action>Toggle</Action>
       <Input ID="0" Universe="0" Channel="165" LowerValue="74" UpperValue="74" MonitorValue="74" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Farbüberblendung" ID="49">
+    <Button Caption="Color Fade" ID="49">
     <WindowState Visible="True" X="740" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4564,7 +4564,7 @@
       <Action>Toggle</Action>
       <Input ID="0" Universe="0" Channel="166" LowerValue="90" UpperValue="90" MonitorValue="90" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Feuer" ID="50">
+    <Button Caption="Fire" ID="50">
     <WindowState Visible="True" X="863" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4597,7 +4597,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="153" LowerValue="66" UpperValue="66" MonitorValue="66" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Kreisen" ID="60">
+    <Button Caption="Orbit" ID="60">
     <WindowState Visible="True" X="248" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4619,7 +4619,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="155" LowerValue="90" UpperValue="90" MonitorValue="90" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Jonglieren" ID="62">
+    <Button Caption="Juggle" ID="62">
     <WindowState Visible="True" X="494" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4630,7 +4630,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="156" LowerValue="106" UpperValue="106" MonitorValue="106" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Wellen" ID="63">
+    <Button Caption="Waves" ID="63">
     <WindowState Visible="True" X="617" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4641,7 +4641,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="157" LowerValue="10" UpperValue="10" MonitorValue="10" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Gegenlauf" ID="64">
+    <Button Caption="Opposite" ID="64">
     <WindowState Visible="True" X="740" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4652,7 +4652,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="158" LowerValue="18" UpperValue="18" MonitorValue="18" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Traversen-Wechsel" ID="65">
+    <Button Caption="Truss Swap" ID="65">
     <WindowState Visible="True" X="863" Y="84" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4663,7 +4663,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="159" LowerValue="26" UpperValue="26" MonitorValue="26" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Mitte füllen" ID="66">
+    <Button Caption="Center Fill" ID="66">
     <WindowState Visible="True" X="2" Y="166" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4674,7 +4674,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="144" LowerValue="90" UpperValue="90" MonitorValue="90" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Streifen" ID="67">
+    <Button Caption="Stripes" ID="67">
     <WindowState Visible="True" X="125" Y="166" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4685,7 +4685,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="145" LowerValue="106" UpperValue="106" MonitorValue="106" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Zufall" ID="68">
+    <Button Caption="Random" ID="68">
     <WindowState Visible="True" X="248" Y="166" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4696,7 +4696,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="146" LowerValue="10" UpperValue="10" MonitorValue="10" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Konfetti" ID="69">
+    <Button Caption="Confetti" ID="69">
     <WindowState Visible="True" X="371" Y="166" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4707,7 +4707,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="147" LowerValue="18" UpperValue="18" MonitorValue="18" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Funkeln" ID="70">
+    <Button Caption="Twinkle" ID="70">
     <WindowState Visible="True" X="494" Y="166" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4729,7 +4729,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="149" LowerValue="42" UpperValue="42" MonitorValue="42" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Ozean" ID="72">
+    <Button Caption="Ocean" ID="72">
     <WindowState Visible="True" X="740" Y="166" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4740,7 +4740,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="150" LowerValue="66" UpperValue="66" MonitorValue="66" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Gewitter" ID="73">
+    <Button Caption="Thunderstorm" ID="73">
     <WindowState Visible="True" X="863" Y="166" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4752,14 +4752,14 @@
      <Input ID="0" Universe="0" Channel="151" LowerValue="74" UpperValue="74" MonitorValue="74" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
    </SoloFrame>
-   <SoloFrame Caption="Bewegung" ID="205">
+   <SoloFrame Caption="Movement" ID="205">
     <WindowState Visible="True" X="6" Y="498" Width="978" Height="76"/>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Button Caption="Kreis" ID="80">
+    <Button Caption="Circle" ID="80">
     <WindowState Visible="True" X="2" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4770,7 +4770,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="136" LowerValue="104" UpperValue="104" MonitorValue="104" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Kreiswelle" ID="81">
+    <Button Caption="Circle Wave" ID="81">
     <WindowState Visible="True" X="125" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4781,7 +4781,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="137" LowerValue="8" UpperValue="8" MonitorValue="8" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Acht" ID="82">
+    <Button Caption="Figure 8" ID="82">
     <WindowState Visible="True" X="248" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4792,7 +4792,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="138" LowerValue="16" UpperValue="16" MonitorValue="16" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Schwenk" ID="83">
+    <Button Caption="Pan Sweep" ID="83">
     <WindowState Visible="True" X="371" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4803,7 +4803,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="139" LowerValue="24" UpperValue="24" MonitorValue="24" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Welle" ID="84">
+    <Button Caption="Tilt Wave" ID="84">
     <WindowState Visible="True" X="494" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4825,7 +4825,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="141" LowerValue="64" UpperValue="64" MonitorValue="64" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Raute" ID="86">
+    <Button Caption="Diamond" ID="86">
     <WindowState Visible="True" X="740" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -4836,7 +4836,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="142" LowerValue="72" UpperValue="72" MonitorValue="72" LowerParams="1" UpperParams="9" MonitorParams="9"/>
     </Button>
-    <Button Caption="Blatt" ID="87">
+    <Button Caption="Leaf" ID="87">
     <WindowState Visible="True" X="863" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -5178,7 +5178,7 @@
       <Channel Fixture="33">4</Channel>
      </Level>
    </Slider>
-   <Slider Caption="Rot" ID="37" WidgetStyle="Slider" InvertedAppearance="false">
+   <Slider Caption="Red" ID="37" WidgetStyle="Slider" InvertedAppearance="false">
     <WindowState Visible="True" X="131" Y="714" Width="113" Height="268"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -5222,7 +5222,7 @@
      <Channel Fixture="33">5</Channel>
     </Level>
    </Slider>
-   <Slider Caption="Grün" ID="38" WidgetStyle="Slider" InvertedAppearance="false">
+   <Slider Caption="Green" ID="38" WidgetStyle="Slider" InvertedAppearance="false">
     <WindowState Visible="True" X="254" Y="714" Width="113" Height="268"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -5266,7 +5266,7 @@
      <Channel Fixture="33">6</Channel>
     </Level>
    </Slider>
-   <Slider Caption="Blau" ID="39" WidgetStyle="Slider" InvertedAppearance="false">
+   <Slider Caption="Blue" ID="39" WidgetStyle="Slider" InvertedAppearance="false">
     <WindowState Visible="True" X="377" Y="714" Width="113" Height="268"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -5310,7 +5310,7 @@
      <Channel Fixture="33">7</Channel>
     </Level>
    </Slider>
-   <Slider Caption="Weiß" ID="40" WidgetStyle="Slider" InvertedAppearance="false">
+   <Slider Caption="White" ID="40" WidgetStyle="Slider" InvertedAppearance="false">
     <WindowState Visible="True" X="500" Y="714" Width="113" Height="268"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
