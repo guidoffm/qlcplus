@@ -5135,7 +5135,7 @@
     </Appearance>
    </Label>
    <Slider Caption="Intensity" ID="8" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="36" Y="714" Width="56" Height="268"/>
+    <WindowState Visible="True" X="8" Y="714" Width="113" Height="268"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -5179,7 +5179,7 @@
      </Level>
    </Slider>
    <Slider Caption="Rot" ID="37" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="159" Y="714" Width="56" Height="268"/>
+    <WindowState Visible="True" X="131" Y="714" Width="113" Height="268"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -5223,7 +5223,7 @@
     </Level>
    </Slider>
    <Slider Caption="Grün" ID="38" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="282" Y="714" Width="56" Height="268"/>
+    <WindowState Visible="True" X="254" Y="714" Width="113" Height="268"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -5267,7 +5267,7 @@
     </Level>
    </Slider>
    <Slider Caption="Blau" ID="39" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="405" Y="714" Width="56" Height="268"/>
+    <WindowState Visible="True" X="377" Y="714" Width="113" Height="268"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -5311,7 +5311,7 @@
     </Level>
    </Slider>
    <Slider Caption="Weiß" ID="40" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="528" Y="714" Width="56" Height="268"/>
+    <WindowState Visible="True" X="500" Y="714" Width="113" Height="268"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
      <ForegroundColor>4294967295</ForegroundColor>

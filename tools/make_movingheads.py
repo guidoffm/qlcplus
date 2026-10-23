@@ -312,7 +312,7 @@ for i in range(9):                         # Fader 1-8 und Master (CC 48-56)
     if i in sliders:
         sl = sliders[i]
         widgets += (f'   <Slider Caption="{sl["caption"]}" ID="{sl["id"]}"{sl["attrs"]}>\n'
-                    f'    <WindowState Visible="True" X="{x + PAD_W // 4}" Y="{yf}" Width="{PAD_W // 2}" Height="{FADER_H}"/>\n'
+                    f'    <WindowState Visible="True" X="{x}" Y="{yf}" Width="{PAD_W}" Height="{FADER_H}"/>\n'
                     f'    {appearance("4294967295", sl["bg"])}\n    {sl["rest"]}\n   </Slider>\n')
     else:
         widgets += (f'   <Label Caption="{"MASTER" if i == 8 else i + 1}" ID="{new_id()}">\n'
