@@ -181,7 +181,7 @@ s = s.replace('   <Frame Caption="Show Wizard" ID="4">', pos_frame + move_frame 
 
 # --- Farb-Pads neu ordnen: Reihe 1 (Noten 56-62) und Reihe 2 (48-53), Strobe bleibt auf 63
 COLOR_NOTES = {"Red": 56, "Green": 57, "Blue": 58, "Cyan": 59, "Magenta": 60, "Yellow": 61, "Amber": 62,
-               "Orange": 48, "Lime": 49, "White": 50, "White LED": 51, "Pink": 52, "Purple": 53}
+               "Lime": 48, "Orange": 49, "White": 50, "Purple": 51, "White LED": 52, "Pink": 53}
 colors_frame = re.search(r'<SoloFrame Caption="Colors" ID="9">.*?</SoloFrame>', s, re.S).group(0)
 new_frame = colors_frame
 for cap, note in COLOR_NOTES.items():
@@ -217,14 +217,23 @@ for m in re.finditer(r'<Slider Caption="([^"]*)" ID="(\d+)"([^>]*)>(.*?)</Slider
 # (Farbtabelle aus dem QLC+-Profil). Einige Rückmeldefarben auf die nächstliegende Palettenfarbe ändern.
 profile = open("/Applications/QLC+.app/Contents/Resources/InputProfiles/Akai-APCMini-mk2.qxi", encoding="utf-8").read()
 PALETTE = {int(v): int(c, 16) for v, c in re.findall(r'<Color Value="(\d+)" Label="[^"]*" RGB="#([0-9a-fA-F]{6})"', profile)}
-FEEDBACK = {"Cyan": 180, "Radar": 180, "Wellen": 180, "Amber": 218, "Lime": 148, "Regenbogen": 168,
-            "Feuer": 120, "Jonglieren": 120, "Mitte füllen": 120,
-            "Auto 4 s": 4, "Auto 8 s": 4, "Auto 16 s": 4, "Auto 32 s": 4, "Auto 64 s": 4, "Auto 128 s": 4}
+# Farbtasten (Reihen 1-2) zeigen ihre echte Farbe; alle anderen Pads bekommen Farbverläufe, die
+# so versetzt sind, dass benachbarte Pads nie gleich aussehen.
+FEEDBACK = {"Cyan": 180, "Amber": 192, "Lime": 148}
+RAINBOW = [10, 18, 26, 42, 66, 74, 90, 106]        # rot, orange, gelb, grün, frühlingsgrün, himmelblau, blau, magenta
+PASTEL = [8, 16, 24, 40, 64, 72, 88, 104]          # dieselben Töne aufgehellt
+PAD_COLORS = {40: 6, 41: 114, 42: 98, 43: 180}     # Positionen: weiß, rosa, violett, türkis
+for col in range(8):
+    PAD_COLORS[32 + col] = RAINBOW[col]            # Reihe 4
+    PAD_COLORS[24 + col] = RAINBOW[(col + 3) % 8]  # Reihe 5
+    PAD_COLORS[16 + col] = RAINBOW[(col + 6) % 8]  # Reihe 6
+    PAD_COLORS[8 + col] = PASTEL[(col + 7) % 8]    # Reihe 7: Bewegungen
+    PAD_COLORS[col] = RAINBOW[(col + 2) % 8]       # Reihe 8: Auto
 for note, b in mapped.items():
     if note >= 64:
         continue                           # Track-/Scene-Buttons haben einfarbige LEDs
-    if b["caption"] in FEEDBACK:
-        fb = FEEDBACK[b["caption"]]
+    fb = PAD_COLORS.get(note, FEEDBACK.get(b["caption"]))
+    if fb is not None:
         b["rest"] = re.sub(r'(Lower|Upper|Monitor)Value="\d+"', lambda m: f'{m.group(1)}Value="{fb}"', b["rest"])
     fb = int(re.search(r'UpperValue="(\d+)"', b["rest"]).group(1))
     b["bg"] = str(0xFF000000 | PALETTE[fb])
