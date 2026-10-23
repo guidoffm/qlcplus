@@ -213,6 +213,22 @@ for m in re.finditer(r'<Slider Caption="([^"]*)" ID="(\d+)"([^>]*)>(.*?)</Slider
                                               bg=bg.group(1) if bg else "4282664004",
                                               rest=m.group(4)[m.group(4).index("<Input"):].rstrip())
 
+# Pad-Farben: Die Taste in QLC+ zeigt exakt die Palettenfarbe, die das Pad auf dem APC zeigt
+# (Farbtabelle aus dem QLC+-Profil). Einige Rückmeldefarben auf die nächstliegende Palettenfarbe ändern.
+profile = open("/Applications/QLC+.app/Contents/Resources/InputProfiles/Akai-APCMini-mk2.qxi", encoding="utf-8").read()
+PALETTE = {int(v): int(c, 16) for v, c in re.findall(r'<Color Value="(\d+)" Label="[^"]*" RGB="#([0-9a-fA-F]{6})"', profile)}
+FEEDBACK = {"Cyan": 180, "Radar": 180, "Wellen": 180, "Amber": 218, "Lime": 148, "Regenbogen": 168,
+            "Feuer": 120, "Jonglieren": 120, "Mitte füllen": 120,
+            "Auto 4 s": 4, "Auto 8 s": 4, "Auto 16 s": 4, "Auto 32 s": 4, "Auto 64 s": 4, "Auto 128 s": 4}
+for note, b in mapped.items():
+    if note >= 64:
+        continue                           # Track-/Scene-Buttons haben einfarbige LEDs
+    if b["caption"] in FEEDBACK:
+        fb = FEEDBACK[b["caption"]]
+        b["rest"] = re.sub(r'(Lower|Upper|Monitor)Value="\d+"', lambda m: f'{m.group(1)}Value="{fb}"', b["rest"])
+    fb = int(re.search(r'UpperValue="(\d+)"', b["rest"]).group(1))
+    b["bg"] = str(0xFF000000 | PALETTE[fb])
+
 FONT = "Roboto Condensed,11,-1,5,600,0,0,0,0,0,0,0,0,0,0,1"
 PAD_W, PAD_H, GAP, X0, Y0 = 104, 72, 8, 40, 40
 next_id = 200
