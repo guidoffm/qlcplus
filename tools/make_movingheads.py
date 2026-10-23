@@ -75,10 +75,16 @@ def aim(r, tx, tz, ty):
     tilt = round(32768 + TILT_SIGN * off / 180 * 65535)
     return max(0, min(65535, pan)), max(0, min(65535, tilt))
 
+def inward(r, dist):
+    """Punkt dist Meter vom Kopf r in Richtung Bühneninneres (senkrecht zur Traverse)."""
+    x, z = head_xz(r)
+    side = r // 8
+    return {0: (x, z - dist), 1: (x - dist, z), 2: (x, z + dist), 3: (x + dist, z)}[side]
+
 # Zielpunkte (x, z, Höhe) je Kopf
 POSITIONS = [
     ("Mitte", lambda r: (0.0, 0.0, 0.0)),
-    ("Senkrecht", lambda r: (*head_xz(r), 0.0)),
+    ("Rand", lambda r: (*inward(r, HEIGHT * math.tan(math.radians(10))), 0.0)),   # 10° nach innen
     ("Kreuz", lambda r: (head_xz(r)[0], 0.0, 0.0) if r // 8 in (0, 2) else (0.0, head_xz(r)[1], 0.0)),
     ("Publikum", lambda r: (head_xz(r)[0] * 1.6, 6.0, 1.5)),
 ]

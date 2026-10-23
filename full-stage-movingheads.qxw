@@ -2015,40 +2015,40 @@
    <FixtureVal ID="32">0,57,1,35,2,194,3,103</FixtureVal>
    <FixtureVal ID="33">0,61,1,105,2,198,3,225</FixtureVal>
   </Function>
-  <Function ID="90" Type="Scene" Name="Position – Senkrecht" Path="Moving Heads/Position">
+  <Function ID="90" Type="Scene" Name="Position – Rand" Path="Moving Heads/Position">
    <Speed FadeIn="1000" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="1">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="4">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="5">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="6">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="7">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="8">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="9">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="10">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="11">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="12">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="13">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="14">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="15">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="16">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="17">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="18">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="19">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="20">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="21">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="22">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="23">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="24">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="25">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="26">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="27">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="28">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="29">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="30">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="31">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="32">0,170,1,170,2,128,3,0</FixtureVal>
-   <FixtureVal ID="33">0,170,1,170,2,128,3,0</FixtureVal>
+   <FixtureVal ID="0">0,85,1,85,2,142,3,57</FixtureVal>
+   <FixtureVal ID="1">0,85,1,85,2,142,3,57</FixtureVal>
+   <FixtureVal ID="4">0,85,1,85,2,142,3,57</FixtureVal>
+   <FixtureVal ID="5">0,85,1,85,2,142,3,57</FixtureVal>
+   <FixtureVal ID="6">0,85,1,85,2,142,3,57</FixtureVal>
+   <FixtureVal ID="7">0,85,1,85,2,142,3,57</FixtureVal>
+   <FixtureVal ID="8">0,85,1,85,2,142,3,57</FixtureVal>
+   <FixtureVal ID="9">0,85,1,85,2,142,3,57</FixtureVal>
+   <FixtureVal ID="10">0,128,1,0,2,142,3,57</FixtureVal>
+   <FixtureVal ID="11">0,128,1,0,2,142,3,57</FixtureVal>
+   <FixtureVal ID="12">0,128,1,0,2,142,3,57</FixtureVal>
+   <FixtureVal ID="13">0,128,1,0,2,142,3,57</FixtureVal>
+   <FixtureVal ID="14">0,128,1,0,2,142,3,57</FixtureVal>
+   <FixtureVal ID="15">0,128,1,0,2,142,3,57</FixtureVal>
+   <FixtureVal ID="16">0,128,1,0,2,142,3,57</FixtureVal>
+   <FixtureVal ID="17">0,128,1,0,2,142,3,57</FixtureVal>
+   <FixtureVal ID="18">0,170,1,170,2,142,3,57</FixtureVal>
+   <FixtureVal ID="19">0,170,1,170,2,142,3,57</FixtureVal>
+   <FixtureVal ID="20">0,170,1,170,2,142,3,57</FixtureVal>
+   <FixtureVal ID="21">0,170,1,170,2,142,3,57</FixtureVal>
+   <FixtureVal ID="22">0,170,1,170,2,142,3,57</FixtureVal>
+   <FixtureVal ID="23">0,170,1,170,2,142,3,57</FixtureVal>
+   <FixtureVal ID="24">0,170,1,170,2,142,3,57</FixtureVal>
+   <FixtureVal ID="25">0,170,1,170,2,142,3,57</FixtureVal>
+   <FixtureVal ID="26">0,213,1,84,2,142,3,57</FixtureVal>
+   <FixtureVal ID="27">0,213,1,84,2,142,3,57</FixtureVal>
+   <FixtureVal ID="28">0,213,1,84,2,142,3,57</FixtureVal>
+   <FixtureVal ID="29">0,213,1,84,2,142,3,57</FixtureVal>
+   <FixtureVal ID="30">0,213,1,84,2,142,3,57</FixtureVal>
+   <FixtureVal ID="31">0,213,1,84,2,142,3,57</FixtureVal>
+   <FixtureVal ID="32">0,213,1,84,2,142,3,57</FixtureVal>
+   <FixtureVal ID="33">0,213,1,84,2,142,3,57</FixtureVal>
   </Function>
   <Function ID="91" Type="Scene" Name="Position – Kreuz" Path="Moving Heads/Position">
    <Speed FadeIn="1000" FadeOut="0" Duration="0"/>
@@ -4446,7 +4446,7 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="168" LowerValue="6" UpperValue="6" MonitorValue="6" LowerParams="1" UpperParams="6" MonitorParams="6"/>
     </Button>
-    <Button Caption="Senkrecht" ID="76">
+    <Button Caption="Rand" ID="76">
     <WindowState Visible="True" X="125" Y="2" Width="113" Height="72"/>
     <Appearance>
      <Font>Roboto Condensed,13,-1,5,600,0,0,0,0,0,0,0,0,0,0,1</Font>
