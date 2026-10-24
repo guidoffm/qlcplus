@@ -11,11 +11,11 @@
    <BeatGenerator BeatType="Audio" BPM="120"/>
    <NetworkServer Type="Native" AutoStart="False" Name="QLC+_C0A8B206" Password=""/>
    <Universe Name="Universe 1" ID="0">
-    <Input Plugin="MIDI" Name="Virtual APC Mini" UID="1095781681" Line="0" Profile="Akai APC Mini mk2"/>
+    <Input Plugin="MIDI" Name="Virtual MIDI APC mini mk2" UID="1095781681" Line="0" Profile="Akai APC Mini mk2"/>
     <Output Plugin="DMX USB" Name="FT232R USB UART (S/N: B002F9NE)" UID="" Line="0">
      <PluginParameters UniverseChannels="32"/>
     </Output>
-    <Feedback Plugin="MIDI" Name="Virtual APC Mini" UID="1095781682" Line="0"/>
+    <Feedback Plugin="MIDI" Name="Virtual MIDI APC mini mk2" UID="1095781682" Line="0"/>
    </Universe>
    <Universe Name="Universe 2" ID="1">
     <Output Plugin="Loopback" Name="Loopback 1" UID="" Line="0">
